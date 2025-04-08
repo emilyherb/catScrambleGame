@@ -1658,3 +1658,361 @@ System memory in use after: 83.5 MB.
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1627.
 Total: 0.823292 ms (FindLiveObjects: 0.084916 ms CreateObjectMapping: 0.015167 ms MarkObjects: 0.712833 ms  DeleteObjects: 0.009917 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1631.
+Total: 0.882667 ms (FindLiveObjects: 0.119792 ms CreateObjectMapping: 0.015334 ms MarkObjects: 0.727000 ms  DeleteObjects: 0.019708 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10563.737057 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ea358883d1b1557221790617238313') in 0.006841 seconds
+  Import took 0.008019 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000185 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.9 MB.
+System memory in use after: 86.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1634.
+Total: 0.829042 ms (FindLiveObjects: 0.079083 ms CreateObjectMapping: 0.014875 ms MarkObjects: 0.723959 ms  DeleteObjects: 0.010625 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.132 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.1 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1637.
+Total: 0.818625 ms (FindLiveObjects: 0.088750 ms CreateObjectMapping: 0.014333 ms MarkObjects: 0.703875 ms  DeleteObjects: 0.010875 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.359930 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc42d379abf4e1a4594d9d2ca9ac6fb7') in 0.003723 seconds
+  Import took 0.005032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052573 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc42d379abf4e1a4594d9d2ca9ac6fb7') in 0.000691 seconds
+  Import took 0.001668 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000186 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.113 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1640.
+Total: 0.816375 ms (FindLiveObjects: 0.083417 ms CreateObjectMapping: 0.014625 ms MarkObjects: 0.706833 ms  DeleteObjects: 0.010917 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.814694 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a18ab961b6f1a34dd518023a6c2e5e') in 0.003357 seconds
+  Import took 0.004424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015785 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a18ab961b6f1a34dd518023a6c2e5e') in 0.000616 seconds
+  Import took 0.001613 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000178 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.118 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1643.
+Total: 0.799167 ms (FindLiveObjects: 0.077292 ms CreateObjectMapping: 0.015708 ms MarkObjects: 0.695875 ms  DeleteObjects: 0.009709 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.166091 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d6ca092cf9d3bb398d61929ac21ad7') in 0.003285 seconds
+  Import took 0.004476 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.141 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.8 MB.
+System memory in use after: 90.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1646.
+Total: 0.861375 ms (FindLiveObjects: 0.119500 ms CreateObjectMapping: 0.014417 ms MarkObjects: 0.715958 ms  DeleteObjects: 0.010708 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.981992 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163cd3f8ccb519e5533cc2b519396cbe') in 0.003413 seconds
+  Import took 0.004540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016110 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163cd3f8ccb519e5533cc2b519396cbe') in 0.000717 seconds
+  Import took 0.001906 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.0 MB.
+System memory in use after: 92.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1649.
+Total: 0.837291 ms (FindLiveObjects: 0.089667 ms CreateObjectMapping: 0.015042 ms MarkObjects: 0.720583 ms  DeleteObjects: 0.011167 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000168 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.2 MB.
+System memory in use after: 93.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1652.
+Total: 0.817625 ms (FindLiveObjects: 0.082833 ms CreateObjectMapping: 0.014333 ms MarkObjects: 0.709042 ms  DeleteObjects: 0.010750 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.674399 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc32d0e87c2cc82dcc088efe7827a71d') in 0.003907 seconds
+  Import took 0.005150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049284 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc32d0e87c2cc82dcc088efe7827a71d') in 0.000703 seconds
+  Import took 0.001853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.707829 seconds.
+  path: Assets/Scripts/TextureScroller.cs
+  artifactKey: Guid(1fb6918ff5a774469b02ab9214aec6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TextureScroller.cs using Guid(1fb6918ff5a774469b02ab9214aec6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e523a9266431e9e0b55edbe0e4115592') in 0.001000 seconds
+  Import took 0.002258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017824 seconds.
+  path: Assets/Scripts/TextureScroller.cs
+  artifactKey: Guid(1fb6918ff5a774469b02ab9214aec6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TextureScroller.cs using Guid(1fb6918ff5a774469b02ab9214aec6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e523a9266431e9e0b55edbe0e4115592') in 0.000711 seconds
+  Import took 0.001660 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.4 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1655.
+Total: 0.810500 ms (FindLiveObjects: 0.077042 ms CreateObjectMapping: 0.015167 ms MarkObjects: 0.704292 ms  DeleteObjects: 0.013250 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.566846 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5809e4c9a87bf8f45a817ec940c0775b') in 0.003308 seconds
+  Import took 0.004653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049667 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5809e4c9a87bf8f45a817ec940c0775b') in 0.000711 seconds
+  Import took 0.001681 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000193 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.105 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1658.
+Total: 0.808959 ms (FindLiveObjects: 0.084292 ms CreateObjectMapping: 0.015000 ms MarkObjects: 0.698125 ms  DeleteObjects: 0.010917 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.129862 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e252724d97be06cd2f315f8052ef26e3') in 0.004294 seconds
+  Import took 0.005535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046567 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e252724d97be06cd2f315f8052ef26e3') in 0.000699 seconds
+  Import took 0.001867 seconds .
+
