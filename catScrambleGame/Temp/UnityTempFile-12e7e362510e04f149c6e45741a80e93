@@ -314,6 +314,7 @@
 /define:USE_SEARCH_ENGINE_API
 "Assets/RoadSigns/Scripts/PlayerLaneMovement.cs"
 "Assets/RoadSigns/Scripts/SceneViewText.cs"
+"Assets/Scripts/BuildingSpawner.cs"
 "Assets/Scripts/ObstacleMovement.cs"
 "Assets/Scripts/TextureScroller.cs"
 "Assets/Scripts/WallScroller.cs"
