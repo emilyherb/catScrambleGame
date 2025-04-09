@@ -1,0 +1,118 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/emilyherbert/Documents/catScrambleGame/catScrambleGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49851
+Successfully changed project path to: /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame
+/Users/emilyherbert/Documents/catScrambleGame/catScrambleGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 18.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame/Assets
+GfxDevice: creating device client; threaded=0
+2025-04-09 11:08:52.722 Unity[27142:2516128] (null) preferred device: Apple M4 Pro (high power)
+2025-04-09 11:08:52.722 Unity[27142:2516128] Metal devices available: 1
+2025-04-09 11:08:52.722 Unity[27142:2516128] 0: Apple M4 Pro (high power)
+2025-04-09 11:08:52.722 Unity[27142:2516128] Using device Apple M4 Pro (high power)
+Initializing Metal device caps: Apple M4 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56142
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000271 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 18.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000176 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.3 MB.
+System memory in use after: 59.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1564.
+Total: 1.537416 ms (FindLiveObjects: 0.086916 ms CreateObjectMapping: 0.015250 ms MarkObjects: 1.384333 ms  DeleteObjects: 0.050292 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa9bbaf625cbcff0f65b250ab30fa47') in 0.128033 seconds
+  Import took 0.129241 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000171 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.0 MB.
+System memory in use after: 64.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1567.
+Total: 0.807584 ms (FindLiveObjects: 0.083916 ms CreateObjectMapping: 0.014667 ms MarkObjects: 0.695875 ms  DeleteObjects: 0.012542 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 845.076206 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9e50698eed2d08ac8e1f782a72565e') in 0.003699 seconds
+  Import took 0.004678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023748 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9e50698eed2d08ac8e1f782a72565e') in 0.001764 seconds
+  Import took 0.002690 seconds .
+
