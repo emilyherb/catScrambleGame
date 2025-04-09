@@ -433,7 +433,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
-  m_LocalPosition: {x: 0, y: 69.6, z: -247.8}
+  m_LocalPosition: {x: 0, y: 60.3, z: -213.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -488,9 +488,9 @@ MonoBehaviour:
   - {fileID: 5858130505207386318, guid: a5910b2c168e84682b27d91bd17d1878, type: 3}
   - {fileID: 7048763020797797299, guid: 5a32c8b5126364fd3b0eb28a7d476f4e, type: 3}
   buildingsPerRow: 12
-  spacing: 50
+  spacing: 80
   spawnZ: 50
-  yPosition: 25
+  yPosition: 30
   rowCenterX: -110
 --- !u!4 &1521066816
 Transform:
@@ -555,9 +555,9 @@ MonoBehaviour:
   - {fileID: 273848607415233909, guid: 31342b875dfec4fbb957b61523340787, type: 3}
   - {fileID: 5183690966779789589, guid: 83907502b76f14816a74a3428b0c9ad3, type: 3}
   buildingsPerRow: 12
-  spacing: 50
+  spacing: 80
   spawnZ: 50
-  yPosition: 25
+  yPosition: 30
   rowCenterX: 110
 --- !u!4 &2080680511
 Transform:
@@ -680,7 +680,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084733765}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.5, y: 1.02, z: -143.7}
+  m_LocalPosition: {x: 11.5, y: 1.02, z: -114.7}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
