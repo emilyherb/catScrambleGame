@@ -77,3 +77,42 @@ Received Import Request.
 Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa9bbaf625cbcff0f65b250ab30fa47') in 0.128033 seconds
   Import took 0.129241 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000171 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.0 MB.
+System memory in use after: 64.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1567.
+Total: 0.807584 ms (FindLiveObjects: 0.083916 ms CreateObjectMapping: 0.014667 ms MarkObjects: 0.695875 ms  DeleteObjects: 0.012542 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 845.076206 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9e50698eed2d08ac8e1f782a72565e') in 0.003699 seconds
+  Import took 0.004678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023748 seconds.
+  path: Assets/Scripts/ObstacleMovement.cs
+  artifactKey: Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObstacleMovement.cs using Guid(de25cf1eff3324313b4ccdb9511b17ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9e50698eed2d08ac8e1f782a72565e') in 0.001764 seconds
+  Import took 0.002690 seconds .
+
