@@ -312,6 +312,7 @@
 /define:UNITY_STANDALONE_OSX
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
+"Assets/RoadSigns/Scripts/BuildingSpawner.cs"
 "Assets/RoadSigns/Scripts/PlayerLaneMovement.cs"
 "Assets/RoadSigns/Scripts/SceneViewText.cs"
 "Assets/Scripts/ObstacleMovement.cs"
