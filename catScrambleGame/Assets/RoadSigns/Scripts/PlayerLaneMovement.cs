@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerLaneMovement : MonoBehaviour
 {
@@ -8,8 +8,8 @@ public class PlayerLaneMovement : MonoBehaviour
 
     public float laneSwitchSpeed = 10f;
 
-    public float jumpForce = 15f;
-    public float gravity = -30f;
+    public float jumpForce = 100f;
+    public float gravity = -200f;
     private float verticalVelocity = 0f;
     private bool isGrounded = true;
 
