@@ -1,19 +1,19 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/ccornell11/Desktop/CatScramble/Untitled/catScrambleGame/Packages/manifest.json
+    m_FilePath: /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638799298760000000
+      ticks: 638796824050000000
     m_Hash: 4007186375
   m_LockFileStatus:
-    m_FilePath: /Users/ccornell11/Desktop/CatScramble/Untitled/catScrambleGame/Packages/packages-lock.json
+    m_FilePath: /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638802524980000000
+      ticks: 638802606130000000
     m_Hash: 672387724
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: /Users/ccornell11/Desktop/CatScramble/Untitled/catScrambleGame/Library/PackageCache/com.unity.collab-proxy@1.3.9
+      resolvedPath: /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -188,7 +188,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: /Users/ccornell11/Desktop/CatScramble/Untitled/catScrambleGame/Library/PackageCache/com.unity.ide.rider@2.0.7
+      resolvedPath: /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -335,7 +335,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: /Users/ccornell11/Desktop/CatScramble/Untitled/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7
+      resolvedPath: /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -442,7 +442,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: /Users/ccornell11/Desktop/CatScramble/Untitled/catScrambleGame/Library/PackageCache/com.unity.ide.vscode@1.2.3
+      resolvedPath: /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -515,7 +515,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.22
       source: 1
-      resolvedPath: /Users/ccornell11/Desktop/CatScramble/Untitled/catScrambleGame/Library/PackageCache/com.unity.test-framework@1.1.22
+      resolvedPath: /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.test-framework@1.1.22
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -656,7 +656,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: /Users/ccornell11/Desktop/CatScramble/Untitled/catScrambleGame/Library/PackageCache/com.unity.textmeshpro@3.0.1
+      resolvedPath: /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -849,7 +849,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.6
       source: 1
-      resolvedPath: /Users/ccornell11/Desktop/CatScramble/Untitled/catScrambleGame/Library/PackageCache/com.unity.timeline@1.4.6
+      resolvedPath: /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.timeline@1.4.6
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2853,7 +2853,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: /Users/ccornell11/Desktop/CatScramble/Untitled/catScrambleGame/Library/PackageCache/com.unity.ext.nunit@1.0.6
+      resolvedPath: /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2919,5 +2919,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: /Users/ccornell11/Desktop/CatScramble/Untitled/catScrambleGame/Packages
+m_ProjectPath: /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame/Packages
 m_EditorVersion: 2020.3.0f1 (c7b5465681fb)
