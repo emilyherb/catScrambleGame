@@ -1,55 +1,40 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxHearts = 3;
-    public int currentHearts;
-
-    public Image[] heartImages;
-    public Sprite fullHeart;
-    public Sprite emptyHeart;
+    public int maxHealth = 3;
+    private int currentHealth;
 
     void Start()
     {
-        currentHearts = maxHearts;
-        UpdateHearts();
+        currentHealth = maxHealth;
+        Debug.Log("Cat health initialized to: " + currentHealth);
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage(int damage)
     {
-        currentHearts -= amount;
-        currentHearts = Mathf.Clamp(currentHearts, 0, maxHearts);
-        UpdateHearts();
+        currentHealth -= damage;
+        Debug.Log("Cat took " + damage + " damage. Current health: " + currentHealth);
 
-        if (currentHearts <= 0)
+        if (currentHealth <= 0)
         {
-            GameOver();
+            Die();
         }
     }
 
-    void UpdateHearts()
+    private void Die()
     {
-        for (int i = 0; i < heartImages.Length; i++)
-        {
-            heartImages[i].sprite = i < currentHearts ? fullHeart : emptyHeart;
-        }
-    }
-
-    void GameOver()
-    {
-        Debug.Log("Game Over!");
+        Debug.Log("Cat died! Game Over!");
         Time.timeScale = 0f;
-
     }
 
-    private void OnTriggerEnter(Collider other)
+    public int GetCurrentHealth()
     {
-        if (other.CompareTag("Obstacle"))
-        {
-            TakeDamage(1);
-            Destroy(other.gameObject);
-        }
+        return currentHealth;
+    }
+
+    public int GetMaxHealth()
+    {
+        return maxHealth;
     }
 }
-

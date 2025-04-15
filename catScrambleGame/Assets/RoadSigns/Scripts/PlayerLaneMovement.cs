@@ -17,6 +17,7 @@ public class PlayerLaneMovement : MonoBehaviour
     public AudioClip hitSound;
     private AudioSource audioSource;
     private CameraShake cameraShake;
+    private PlayerHealth playerHealth;
 
     void Start()
     {
@@ -42,6 +43,12 @@ public class PlayerLaneMovement : MonoBehaviour
         if (cameraShake == null)
         {
             Debug.LogWarning("No CameraShake component found on Main Camera!");
+        }
+
+        playerHealth = GetComponent<PlayerHealth>();
+        if (playerHealth == null)
+        {
+            Debug.LogWarning("No PlayerHealth component found on Cat (1)!");
         }
     }
 
@@ -91,6 +98,11 @@ public class PlayerLaneMovement : MonoBehaviour
             if (cameraShake != null)
             {
                 cameraShake.Shake();
+            }
+
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(1);
             }
         }
     }
