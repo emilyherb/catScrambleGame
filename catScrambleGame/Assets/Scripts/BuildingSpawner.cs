@@ -1,64 +1,71 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class BuildingSpawner : MonoBehaviour
 {
     public GameObject[] buildingPrefabs;
-    public int buildingsPerRow = 12;
-    public float spacing = 4f;
-    public float spawnZ = 50f;
-    public float yPosition = 0.5f;
-    public float rowCenterX = 0f; // Use this to center your row
-    private float lastSpawnZ = 0f; // Track the Z position of the last spawned row
+    public int poolSizePerSide = 10;
+    public float spawnZStart = 20f;
+    public float spawnDistance = 10f;
+    public float despawnZ = -10f;
+    public float speed = 5f;
+
+    public Transform buildingSpawnOrigin;
+    public float sideOffsetX = 6f; // distance from center to left/right buildings
+
+    private List<GameObject> leftBuildings = new List<GameObject>();
+    private List<GameObject> rightBuildings = new List<GameObject>();
 
     void Start()
     {
-        lastSpawnZ = spawnZ; // Initialize the starting spawnZ
-        SpawnInitialRows(); // Spawn initial rows
+        for (int i = 0; i < poolSizePerSide; i++)
+        {
+            SpawnBuilding(leftBuildings, -sideOffsetX, i);
+            SpawnBuilding(rightBuildings, sideOffsetX, i);
+        }
     }
 
     void Update()
     {
-        // Continuously spawn new rows at the back of the current row
-        // Check if the last row is far enough behind the camera to spawn a new one
-        if (lastSpawnZ - Camera.main.transform.position.z < 50f) // Adjust threshold as needed
+        MoveBuildings(leftBuildings);
+        MoveBuildings(rightBuildings);
+    }
+
+    void SpawnBuilding(List<GameObject> pool, float xOffset, int index)
+    {
+        GameObject prefab = buildingPrefabs[Random.Range(0, buildingPrefabs.Length)];
+        Vector3 pos = buildingSpawnOrigin.position + new Vector3(xOffset, 0f, index * spawnDistance);
+        GameObject obj = Instantiate(prefab, pos, Quaternion.identity, transform);
+        pool.Add(obj);
+    }
+
+    void MoveBuildings(List<GameObject> pool)
+    {
+        foreach (GameObject building in pool)
         {
-            SpawnBuildingRow();
+            building.transform.Translate(Vector3.back * speed * Time.deltaTime);
+
+            if (building.transform.position.z < despawnZ)
+            {
+                float maxZ = GetFurthestZ(pool);
+                Vector3 newPos = new Vector3(
+                    building.transform.position.x,
+                    building.transform.position.y,
+                    maxZ + spawnDistance
+                );
+                building.transform.position = newPos;
+            }
         }
     }
 
-    void SpawnBuildingRow()
+    float GetFurthestZ(List<GameObject> pool)
     {
-        float totalWidth = spacing * (buildingsPerRow - 1);
-        float startZ = lastSpawnZ; // Place the new row at the back of the previous one
-
-        for (int i = 0; i < buildingsPerRow; i++)
+        float maxZ = float.MinValue;
+        foreach (GameObject obj in pool)
         {
-            int randomIndex = Random.Range(0, buildingPrefabs.Length);
-            GameObject prefab = buildingPrefabs[randomIndex];
-
-            // Calculate the Z position for each building in the row
-            float zPos = startZ + i * spacing;
-            Vector3 spawnPos = new Vector3(rowCenterX, yPosition, zPos);
-
-            // Instantiate the building at the calculated position
-            Instantiate(prefab, spawnPos, Quaternion.identity);
-            Debug.Log($"Spawned building at Z={zPos}");
+            if (obj.transform.position.z > maxZ)
+                maxZ = obj.transform.position.z;
         }
-
-        // Update the lastSpawnZ for the next row to spawn behind the current row
-        lastSpawnZ = startZ + totalWidth;
-    }
-
-    // Spawn initial rows to make sure the game starts with buildings visible
-    void SpawnInitialRows()
-    {
-        // This ensures we have some rows already spawned at the start
-        for (int i = 0; i < 3; i++) // Spawn 3 initial rows
-        {
-            SpawnBuildingRow();
-        }
+        return maxZ;
     }
 }
-

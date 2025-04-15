@@ -144,63 +144,6 @@ MonoBehaviour:
   jumpForce: 100
   gravity: -230
   groundHeight: -4
---- !u!1 &124511977
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 124511979}
-  - component: {fileID: 124511978}
-  m_Layer: 0
-  m_Name: RightBuildingSpawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &124511978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 124511977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a674b957f40354b2bb50484e597f8862, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buildingPrefabs:
-  - {fileID: 7695119763558581554, guid: a824f9a62caf9c54a9458419d6dcbbe8, type: 3}
-  - {fileID: 1097506586273857988, guid: 8bd38d3f078dafe41b6d7699c405ac4c, type: 3}
-  - {fileID: 2731906361354674701, guid: 7204a8d4c276a2744a178cde0344b774, type: 3}
-  - {fileID: 5150551461221631457, guid: 0fdb1dadc44702f499b648f9f11bcf9b, type: 3}
-  - {fileID: 7446242150086142362, guid: 99420a4e47be02047983a8de78548f17, type: 3}
-  - {fileID: 2352241880792767473, guid: 0ff0f5c3302eee844945115bfe13f943, type: 3}
-  - {fileID: 575874035240156402, guid: 7497d6b5522b3ef4c975da4d035b26ae, type: 3}
-  - {fileID: 8614566769928799913, guid: 407cec0499750964c87373d454cba99e, type: 3}
-  buildingsPerRow: 12
-  spacing: 50
-  spawnZ: 50
-  yPosition: -5
-  rowCenterX: -72
---- !u!4 &124511979
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 124511977}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 468.17725, y: -399.73605, z: 406.99176}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &127698724
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,7 +697,7 @@ Transform:
   m_LocalScale: {x: 10, y: 0.5, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -903,7 +846,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1153682586
 GameObject:
@@ -1238,7 +1181,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1354118505
 GameObject:
@@ -1611,11 +1554,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710919742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.178335, y: -4.8, z: 105.26941}
+  m_LocalPosition: {x: -25.178335, y: -4.8, z: 38}
   m_LocalScale: {x: 300, y: 1, z: 1000}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1712082396
 GameObject:
@@ -1674,7 +1617,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1712603051
 GameObject:
@@ -1687,7 +1630,7 @@ GameObject:
   - component: {fileID: 1712603053}
   - component: {fileID: 1712603052}
   m_Layer: 0
-  m_Name: LeftBuildingSpawn
+  m_Name: BuildingSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1714,11 +1657,13 @@ MonoBehaviour:
   - {fileID: 2731906361354674701, guid: 7204a8d4c276a2744a178cde0344b774, type: 3}
   - {fileID: 1097506586273857988, guid: 8bd38d3f078dafe41b6d7699c405ac4c, type: 3}
   - {fileID: 7695119763558581554, guid: a824f9a62caf9c54a9458419d6dcbbe8, type: 3}
-  buildingsPerRow: 12
-  spacing: 50
-  spawnZ: 100
-  yPosition: -5
-  rowCenterX: 72
+  poolSizePerSide: 20
+  spawnZStart: 20
+  spawnDistance: 50
+  despawnZ: -125
+  speed: 5
+  buildingSpawnOrigin: {fileID: 1712603053}
+  sideOffsetX: 73
 --- !u!4 &1712603053
 Transform:
   m_ObjectHideFlags: 0
@@ -1727,7 +1672,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712603051}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 468.17725, y: -399.73605, z: 406.99176}
+  m_LocalPosition: {x: -1, y: -4, z: -49.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1905,7 +1850,7 @@ RectTransform:
   m_Children:
   - {fileID: 1162230831}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2020,7 +1965,7 @@ Transform:
   m_LocalScale: {x: 10, y: 0.5, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &2106586951
 GameObject:
