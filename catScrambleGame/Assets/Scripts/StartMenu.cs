@@ -7,13 +7,12 @@ public class StartMenu : MonoBehaviour
     public GameObject mainPanel;         // Drag MainPanel here
     public GameObject optionsPanel;      // Drag OptionsPanel here
     public Dropdown musicDropdown;       // Drag MusicDropdown here
-    public GameObject scoreUI;
 
     void Start()
     {
         // Pause the game at the beginning
         Time.timeScale = 0f;
-        scoreUI.SetActive(false);
+
         // Set panels: main visible, options hidden
         mainPanel.SetActive(true);
         optionsPanel.SetActive(false);
@@ -43,7 +42,6 @@ public class StartMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         mainPanel.SetActive(false);
-        scoreUI.SetActive(true);
     }
 
     public void OpenOptions()
