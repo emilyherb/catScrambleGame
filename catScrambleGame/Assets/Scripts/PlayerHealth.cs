@@ -55,6 +55,20 @@ public void ResetHealth()
     currentHealth = maxHealth;
     Debug.Log("Health reset to max: " + currentHealth);
 }
+void OnTriggerEnter(Collider other)
+{
+    if (other.CompareTag("Powerup"))
+    {
+        RestoreHealth(1); // You could adjust this number if needed
+
+        Destroy(other.gameObject); // Remove the powerup from the world
+    }
+}
+public void RestoreHealth(int amount)
+{
+    currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
+    Debug.Log("Health restored by " + amount + ". Current health: " + currentHealth);
+}
 
 
 }

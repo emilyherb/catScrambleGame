@@ -1,0 +1,1238 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/emilyherbert/Documents/catScrambleGame/catScrambleGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55891
+Successfully changed project path to: /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame
+/Users/emilyherbert/Documents/catScrambleGame/catScrambleGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/emilyherbert/Documents/catScrambleGame/catScrambleGame/Assets
+GfxDevice: creating device client; threaded=0
+2025-04-17 11:13:18.676 Unity[52894:4632822] (null) preferred device: Apple M4 Pro (high power)
+2025-04-17 11:13:18.676 Unity[52894:4632822] Metal devices available: 1
+2025-04-17 11:13:18.676 Unity[52894:4632822] 0: Apple M4 Pro (high power)
+2025-04-17 11:13:18.676 Unity[52894:4632822] Using device Apple M4 Pro (high power)
+Initializing Metal device caps: Apple M4 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56894
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000359 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 27.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.669 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000364 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.717 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1583.
+Total: 1.329667 ms (FindLiveObjects: 0.167583 ms CreateObjectMapping: 0.028458 ms MarkObjects: 1.064375 ms  DeleteObjects: 0.068583 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BowlsFoodTextures/BowlsFood_Normal.png
+  artifactKey: Guid(0fecd4677e28d704497fb0a115848722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BowlsFoodTextures/BowlsFood_Normal.png using Guid(0fecd4677e28d704497fb0a115848722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc42d0aa0900fd3de8702c0b0f0e2ff') in 0.485512 seconds
+  Import took 0.488895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BowlsFoodTextures
+  artifactKey: Guid(66f71fcfbfe8e6449b3347f4d607947c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BowlsFoodTextures using Guid(66f71fcfbfe8e6449b3347f4d607947c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90763aeabd00f8a13bcf79b596a90ac') in 0.000885 seconds
+  Import took 0.002219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BowlsFoodTextures/BowlsFood_BaseColor3.png
+  artifactKey: Guid(fbc22c44cdd00644b83d938cf0bb1877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BowlsFoodTextures/BowlsFood_BaseColor3.png using Guid(fbc22c44cdd00644b83d938cf0bb1877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c267e2b0081f8f37f62c4b3cc2927665') in 0.028111 seconds
+  Import took 0.031425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BowlsFoodTextures/BowlsFood_BaseColor1.png
+  artifactKey: Guid(9480acad6067f9b40b8e84e7d3c340f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BowlsFoodTextures/BowlsFood_BaseColor1.png using Guid(9480acad6067f9b40b8e84e7d3c340f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4370bb78aacf7eba0e02a2ee9571351b') in 0.028355 seconds
+  Import took 0.031533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.188990 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BedsToys
+  artifactKey: Guid(52d76ccd83df128429dcf7f61b69cefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BedsToys using Guid(52d76ccd83df128429dcf7f61b69cefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc4ac7df8be7d1f5078b16fba06ef1e') in 0.000904 seconds
+  Import took 0.003026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060560 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BedsToys/BedsToys_BaseColor1.png
+  artifactKey: Guid(f58131e3a147d4c45a821f15ec2e4b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BedsToys/BedsToys_BaseColor1.png using Guid(f58131e3a147d4c45a821f15ec2e4b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b52d238aaf2782ab4c665ffea964bb') in 0.021989 seconds
+  Import took 0.023835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BedsToys/BedsToys_Normal.png
+  artifactKey: Guid(e762afa75b766b4429ab83fec12a3dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BedsToys/BedsToys_Normal.png using Guid(e762afa75b766b4429ab83fec12a3dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f568a6c85de53d1fcf851be622b3b5c4') in 0.021471 seconds
+  Import took 0.024311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BedsToys/BedsToys_BaseColor3.png
+  artifactKey: Guid(0abddc1a6e8cdeb438d5768d53c870a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BedsToys/BedsToys_BaseColor3.png using Guid(0abddc1a6e8cdeb438d5768d53c870a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27207c8afb9913a1400a599b36049e12') in 0.012893 seconds
+  Import took 0.014581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.609820 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/TileTextures
+  artifactKey: Guid(c73e718b6a55fa345b3b0c6e548e3b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/TileTextures using Guid(c73e718b6a55fa345b3b0c6e548e3b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3760713e58ac5ba9f0ede1224e2708de') in 0.001123 seconds
+  Import took 0.002951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092786 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/TileTextures/Texture5.png
+  artifactKey: Guid(9610ebc1fa41f4d4c889088c65942ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/TileTextures/Texture5.png using Guid(9610ebc1fa41f4d4c889088c65942ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dd290281e2cf7bfcfe93290649dfee') in 0.017991 seconds
+  Import took 0.019683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.426641 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/ScratchingPostTextures
+  artifactKey: Guid(c3b2f2042e0143646ab0b24ee4543913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/ScratchingPostTextures using Guid(c3b2f2042e0143646ab0b24ee4543913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732ff889ca97db0f6e2efcdf7bfe2b9c') in 0.001068 seconds
+  Import took 0.002954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064788 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/ScratchingPostTextures/ScratchingPosts_BaseColor3.png
+  artifactKey: Guid(ea9eadd2647e27441993d93af9a82406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/ScratchingPostTextures/ScratchingPosts_BaseColor3.png using Guid(ea9eadd2647e27441993d93af9a82406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff596fa87e0e4af39aa867bc198bfa8') in 0.018761 seconds
+  Import took 0.020541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/ScratchingPostTextures/ScratchingPosts_Normal.png
+  artifactKey: Guid(d328bac9fdb00e14592ef3d98dc04c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/ScratchingPostTextures/ScratchingPosts_Normal.png using Guid(d328bac9fdb00e14592ef3d98dc04c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8476011d743d52a2f7d284c3ce6234c1') in 0.020818 seconds
+  Import took 0.023665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001905 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/ScratchingPostTextures/ScratchingPosts_Normal.png
+  artifactKey: Guid(d328bac9fdb00e14592ef3d98dc04c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures/ScratchingPostTextures/ScratchingPosts_Normal.png using Guid(d328bac9fdb00e14592ef3d98dc04c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8476011d743d52a2f7d284c3ce6234c1') in 0.019705 seconds
+  Import took 0.022542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.369352 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BowlsFood
+  artifactKey: Guid(8eb456c865461b64ba1768b97da115c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BowlsFood using Guid(8eb456c865461b64ba1768b97da115c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288aabf8005e4745a1c3fd5be4b78189') in 0.001142 seconds
+  Import took 0.002850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.326147 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BowlsFood/Bowl1.fbx
+  artifactKey: Guid(d1a97ad2895fe4941a4f7b9c1618e903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BowlsFood/Bowl1.fbx using Guid(d1a97ad2895fe4941a4f7b9c1618e903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5b4ab1d61de9069b66a1eaea976d99') in 0.587902 seconds
+  Import took 0.589972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BowlsFood/Food2.fbx
+  artifactKey: Guid(56f60e41c87cbfa4d8289e8a165e8691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BowlsFood/Food2.fbx using Guid(56f60e41c87cbfa4d8289e8a165e8691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc9276c440fef906947cc81312cc2f5') in 0.028583 seconds
+  Import took 0.030253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BowlsFood/Food3.fbx
+  artifactKey: Guid(fb48992c17a5d93428b5e9abfbbfc161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BowlsFood/Food3.fbx using Guid(fb48992c17a5d93428b5e9abfbbfc161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ad45cb307c62164a094fe65d19bc26') in 0.018919 seconds
+  Import took 0.020514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001238 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BowlsFood/Food3.fbx
+  artifactKey: Guid(fb48992c17a5d93428b5e9abfbbfc161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BowlsFood/Food3.fbx using Guid(fb48992c17a5d93428b5e9abfbbfc161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ad45cb307c62164a094fe65d19bc26') in 0.018716 seconds
+  Import took 0.020335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.682883 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Materials
+  artifactKey: Guid(d368afbacf37c9b4fa346dc6ccd832b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Materials using Guid(d368afbacf37c9b4fa346dc6ccd832b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0264b33759373b36ab9df56e0c7a95') in 0.002258 seconds
+  Import took 0.003905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.691378 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BedsToysAccessories
+  artifactKey: Guid(7bda73971bfe2464a9549a2fd29c1e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BedsToysAccessories using Guid(7bda73971bfe2464a9549a2fd29c1e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2f7219003a56456d5094eadb0c0358') in 0.001869 seconds
+  Import took 0.003525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077307 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BedsToysAccessories/BedsToys Material 1.mat
+  artifactKey: Guid(465e93e4bc222684693a8cb6497c9538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BedsToysAccessories/BedsToys Material 1.mat using Guid(465e93e4bc222684693a8cb6497c9538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33f3273133aeeddc0eecb0e3c82e9d4') in 0.120895 seconds
+  Import took 0.122859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BedsToysAccessories/BedsToys Material 3.mat
+  artifactKey: Guid(d1ea2a8ed954fba409e1304864a941b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BedsToysAccessories/BedsToys Material 3.mat using Guid(d1ea2a8ed954fba409e1304864a941b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3d1f7e4098cb2a95a7b079b46faaf9') in 0.008561 seconds
+  Import took 0.009985 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000288 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.738 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 72.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1634.
+Total: 1.166125 ms (FindLiveObjects: 0.125125 ms CreateObjectMapping: 0.022042 ms MarkObjects: 0.992292 ms  DeleteObjects: 0.025750 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 178.034400 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/readme.txt
+  artifactKey: Guid(0db0a1dbe5d7d6145abd286f827a6831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/readme.txt using Guid(0db0a1dbe5d7d6145abd286f827a6831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebaa4d85af9427c34598bb1816d10bf') in 0.668219 seconds
+  Import took 0.670575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.127595 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0dbd62ec9af9c816321418d314a904') in 0.000911 seconds
+  Import took 0.002526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.879793 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d0468c84f389f4d8eec25da968df79') in 0.146962 seconds
+  Import took 0.148857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.975001 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Scenes
+  artifactKey: Guid(c7ad11376ccba454481001e58b2bc1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Scenes using Guid(c7ad11376ccba454481001e58b2bc1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faa5fdfc0c0223f90f3a859a608c99c') in 0.001113 seconds
+  Import took 0.002741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.912800 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Scenes/Demo.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Scenes/Demo.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3af295b3d7b30b5c2a048769114fcd') in 0.001554 seconds
+  Import took 0.003204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.109671 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BowlsFood
+  artifactKey: Guid(5795023c6f93983449fdd6a5268f6d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BowlsFood using Guid(5795023c6f93983449fdd6a5268f6d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85772c26cff0cd0d882b95743ceab5a3') in 0.001105 seconds
+  Import took 0.002946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079725 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BowlsFood/BowlsMaterial1.mat
+  artifactKey: Guid(bc1a9ac0b1caa9b46a6fe7e98257ca62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BowlsFood/BowlsMaterial1.mat using Guid(bc1a9ac0b1caa9b46a6fe7e98257ca62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b6b8993e69f992943cf88b16d4880b') in 0.178535 seconds
+  Import took 0.180452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BowlsFood/BowlsMaterial3.mat
+  artifactKey: Guid(3fdbac94fc0f29049b6c4c418b8d660f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BowlsFood/BowlsMaterial3.mat using Guid(3fdbac94fc0f29049b6c4c418b8d660f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b78ca04790c0d9a055b5af3b17cccd') in 0.012293 seconds
+  Import took 0.013911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.618423 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BowlsFoodTextures/Materials
+  artifactKey: Guid(0ddd1d083fb3f412d97273e94be4b808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BowlsFoodTextures/Materials using Guid(0ddd1d083fb3f412d97273e94be4b808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92336bb4d9fd5e5a591a642bde21f546') in 0.002556 seconds
+  Import took 0.004329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066742 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BowlsFoodTextures/Materials/BowlsFood_BaseColor3.mat
+  artifactKey: Guid(74019d290ff084cefa0c3eb9a7b406f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Textures/BowlsFoodTextures/Materials/BowlsFood_BaseColor3.mat using Guid(74019d290ff084cefa0c3eb9a7b406f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a75b8537b89a281b83d8893badc9b1a') in 0.033042 seconds
+  Import took 0.036322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.129695 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/ScratchingPostsMaterials
+  artifactKey: Guid(dd0500aaa32254843b462c8dc6ba3086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/ScratchingPostsMaterials using Guid(dd0500aaa32254843b462c8dc6ba3086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abda8b57067df6749cf6f85f1373c6a1') in 0.001221 seconds
+  Import took 0.002862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070210 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/ScratchingPostsMaterials/ScratchingPosts3.mat
+  artifactKey: Guid(76c4be1eee02b6540a047456b3173eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/ScratchingPostsMaterials/ScratchingPosts3.mat using Guid(76c4be1eee02b6540a047456b3173eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6dc795a4f0eb4efa46cc0791de77e3') in 0.013772 seconds
+  Import took 0.015657 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000375 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.779 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1637.
+Total: 1.095000 ms (FindLiveObjects: 0.105166 ms CreateObjectMapping: 0.022375 ms MarkObjects: 0.952333 ms  DeleteObjects: 0.014458 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.407402 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Small Food.prefab
+  artifactKey: Guid(f2d59cffb36084783b0c4ddae5434678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Small Food.prefab using Guid(f2d59cffb36084783b0c4ddae5434678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb327043988f3a3f87fb595bbc71807') in 0.291714 seconds
+  Import took 0.295377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.192545 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Large Food.prefab
+  artifactKey: Guid(ed75012979ae84d81ae9fc2823e36770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Large Food.prefab using Guid(ed75012979ae84d81ae9fc2823e36770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39eaf6ca46c8d6bd7aeff9f4ab916cf1') in 0.038694 seconds
+  Import took 0.041929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003554 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Large Food.prefab
+  artifactKey: Guid(ed75012979ae84d81ae9fc2823e36770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Large Food.prefab using Guid(ed75012979ae84d81ae9fc2823e36770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39eaf6ca46c8d6bd7aeff9f4ab916cf1') in 0.021915 seconds
+  Import took 0.025089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.873436 seconds.
+  path: Assets/RoadSigns/Materials/road-9.mat
+  artifactKey: Guid(95a820b77c65240889ddeca889f7193a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadSigns/Materials/road-9.mat using Guid(95a820b77c65240889ddeca889f7193a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1920b882cfdc3994eb229688a22035') in 0.064557 seconds
+  Import took 0.066538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.918256 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Small Food.prefab
+  artifactKey: Guid(f2d59cffb36084783b0c4ddae5434678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Small Food.prefab using Guid(f2d59cffb36084783b0c4ddae5434678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7791e99c3084da962a623741310a6a7') in 0.030473 seconds
+  Import took 0.033893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.612122 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Big Food.prefab
+  artifactKey: Guid(496fc5b11920e4beaa8f05ea102fe5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Big Food.prefab using Guid(496fc5b11920e4beaa8f05ea102fe5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb81a50ac8cf3afb4803e30cd9a03f14') in 0.030498 seconds
+  Import took 0.033767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.858681 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spawner.cs using Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c065fbaaad174efa3a4ddd048b43857') in 0.001555 seconds
+  Import took 0.003490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002140 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spawner.cs using Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c065fbaaad174efa3a4ddd048b43857') in 0.000844 seconds
+  Import took 0.002194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.038324 seconds.
+  path: Assets/Scripts/PlayerHealth.cs
+  artifactKey: Guid(4a10eed2c4a754d208c4ad13b6723531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerHealth.cs using Guid(4a10eed2c4a754d208c4ad13b6723531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ede83083be5e958284c2a3b9b014db') in 0.001578 seconds
+  Import took 0.003385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Scripts/PlayerHealth.cs
+  artifactKey: Guid(4a10eed2c4a754d208c4ad13b6723531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerHealth.cs using Guid(4a10eed2c4a754d208c4ad13b6723531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ede83083be5e958284c2a3b9b014db') in 0.000962 seconds
+  Import took 0.002356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.155834 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9cd4b758383a6808ed7ca1a8775bde') in 0.065573 seconds
+  Import took 0.067530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.219594 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Small Food.prefab
+  artifactKey: Guid(f2d59cffb36084783b0c4ddae5434678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Small Food.prefab using Guid(f2d59cffb36084783b0c4ddae5434678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27a5f3256c792287111c29215a82e2c') in 0.035398 seconds
+  Import took 0.038876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.683250 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Big Food.prefab
+  artifactKey: Guid(496fc5b11920e4beaa8f05ea102fe5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Big Food.prefab using Guid(496fc5b11920e4beaa8f05ea102fe5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172a214fc58c079006917d3696699ee9') in 0.032808 seconds
+  Import took 0.035984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.633919 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings
+  artifactKey: Guid(101b99f171d9f91459da33047a266b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings using Guid(101b99f171d9f91459da33047a266b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa5c1c5b36f0dff8f3da3e712e25a5c') in 0.002540 seconds
+  Import took 0.004269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075850 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_1.fbx
+  artifactKey: Guid(83349215e21a96e4c9f6b0f3f7392e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_1.fbx using Guid(83349215e21a96e4c9f6b0f3f7392e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2638a60949460d5a3727b21b970cdcc') in 0.093509 seconds
+  Import took 0.095482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_4.fbx
+  artifactKey: Guid(2e73a0fbcdab5c2498c849571359018c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_4.fbx using Guid(2e73a0fbcdab5c2498c849571359018c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c4898371c2d2e89b7408c8aaba0470') in 0.019602 seconds
+  Import took 0.021280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_5.fbx
+  artifactKey: Guid(197684157b259f049ab443d61396b90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_5.fbx using Guid(197684157b259f049ab443d61396b90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc3bf8914d9327d0d20ea54e0b84013') in 0.016068 seconds
+  Import took 0.017847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_6.fbx
+  artifactKey: Guid(aab2be6a574600b479bbe0b31f2b80df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_6.fbx using Guid(aab2be6a574600b479bbe0b31f2b80df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4dea304deb52c03e6612dc76131c94') in 0.015948 seconds
+  Import took 0.017520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_7.fbx
+  artifactKey: Guid(329c1c6c7107ba04fb978ccf4448654d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_7.fbx using Guid(329c1c6c7107ba04fb978ccf4448654d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab8ac2c281d61d7f96a27285b990f29') in 0.014177 seconds
+  Import took 0.015768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_8.fbx
+  artifactKey: Guid(817683154b6697349aefce724f1e7ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_8.fbx using Guid(817683154b6697349aefce724f1e7ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2603c44a262947c1d11d1114d399ad9f') in 0.014872 seconds
+  Import took 0.016554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_2.fbx
+  artifactKey: Guid(aabd863a439f18e479ea3b1081f1b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_2.fbx using Guid(aabd863a439f18e479ea3b1081f1b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e78154c1e6fc248bd508e7c7a5cef4') in 0.015013 seconds
+  Import took 0.016732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_9.fbx
+  artifactKey: Guid(611a92411e2b04e4c9fae69781432568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_9.fbx using Guid(611a92411e2b04e4c9fae69781432568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c33ded65075fb2ad438ccc0d087f4e') in 0.014595 seconds
+  Import took 0.016337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_3.fbx
+  artifactKey: Guid(4fa9acce64c8e88458251a01dcab76bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Buildings/Building_3.fbx using Guid(4fa9acce64c8e88458251a01dcab76bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45d575a67f2bcf02d9b17e5e5fad737') in 0.015309 seconds
+  Import took 0.016903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.323117 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings
+  artifactKey: Guid(2ca84a2c7ef128a4e8dd01fd6ccc4cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings using Guid(2ca84a2c7ef128a4e8dd01fd6ccc4cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c146e6412bf7b66bcea9155209a9c44') in 0.001137 seconds
+  Import took 0.002916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070171 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_1.prefab
+  artifactKey: Guid(360d5822e57359447b9ce3d8a3b37532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_1.prefab using Guid(360d5822e57359447b9ce3d8a3b37532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ff7dadddf2ad6454412d83d0ce545c') in 0.012792 seconds
+  Import took 0.014773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_4.prefab
+  artifactKey: Guid(0ff0f5c3302eee844945115bfe13f943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_4.prefab using Guid(0ff0f5c3302eee844945115bfe13f943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4239feab447bfebbbd8a35b3e9a806b0') in 0.008508 seconds
+  Import took 0.010014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_2.prefab
+  artifactKey: Guid(407cec0499750964c87373d454cba99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_2.prefab using Guid(407cec0499750964c87373d454cba99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e89671e9d10cbebcbed0b188002fb1') in 0.006887 seconds
+  Import took 0.008504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_5.prefab
+  artifactKey: Guid(99420a4e47be02047983a8de78548f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_5.prefab using Guid(99420a4e47be02047983a8de78548f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6e31b5fe416cd725200b6bf518ec2b') in 0.006854 seconds
+  Import took 0.008560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_9.prefab
+  artifactKey: Guid(a824f9a62caf9c54a9458419d6dcbbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_9.prefab using Guid(a824f9a62caf9c54a9458419d6dcbbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d20c32c2e8d417fd2e66a57aef62d2') in 0.007209 seconds
+  Import took 0.008894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_3.prefab
+  artifactKey: Guid(7497d6b5522b3ef4c975da4d035b26ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_3.prefab using Guid(7497d6b5522b3ef4c975da4d035b26ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb5e7ecf01a457bf088a8e731ee11df') in 0.006884 seconds
+  Import took 0.008288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_8.prefab
+  artifactKey: Guid(8bd38d3f078dafe41b6d7699c405ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_8.prefab using Guid(8bd38d3f078dafe41b6d7699c405ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6d28d7fab7dc78761525f54528ea21') in 0.006780 seconds
+  Import took 0.008457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_6.prefab
+  artifactKey: Guid(0fdb1dadc44702f499b648f9f11bcf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_6.prefab using Guid(0fdb1dadc44702f499b648f9f11bcf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e0b641b115f2a8f78714e51a48f6de') in 0.006873 seconds
+  Import took 0.008509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_7.prefab
+  artifactKey: Guid(7204a8d4c276a2744a178cde0344b774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Buildings/Building_7.prefab using Guid(7204a8d4c276a2744a178cde0344b774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd869e7d12dffe4f05b024f5c601f884') in 0.006426 seconds
+  Import took 0.007987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.069830 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Big Food.prefab
+  artifactKey: Guid(496fc5b11920e4beaa8f05ea102fe5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Big Food.prefab using Guid(496fc5b11920e4beaa8f05ea102fe5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf46a8077772cdc52f4724670464984') in 0.033911 seconds
+  Import took 0.037110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.644795 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Big Food.prefab
+  artifactKey: Guid(496fc5b11920e4beaa8f05ea102fe5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Big Food.prefab using Guid(496fc5b11920e4beaa8f05ea102fe5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9120234b811fd1e9e0e6a54a80f0c1') in 0.030230 seconds
+  Import took 0.033454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.739499 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Small Food.prefab
+  artifactKey: Guid(f2d59cffb36084783b0c4ddae5434678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Small Food.prefab using Guid(f2d59cffb36084783b0c4ddae5434678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c4396c25678b678dd6139a5ebe655e') in 0.029987 seconds
+  Import took 0.033204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.639824 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Small Food.prefab
+  artifactKey: Guid(f2d59cffb36084783b0c4ddae5434678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Small Food.prefab using Guid(f2d59cffb36084783b0c4ddae5434678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effe6008437695a3d309862b7ef4d0d8') in 0.031301 seconds
+  Import took 0.034568 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000266 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1641.
+Total: 1.145459 ms (FindLiveObjects: 0.114959 ms CreateObjectMapping: 0.023875 ms MarkObjects: 0.992042 ms  DeleteObjects: 0.013875 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 302.663488 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Buses
+  artifactKey: Guid(e3012466e2407a340a1b6c43d9fcb6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Buses using Guid(e3012466e2407a340a1b6c43d9fcb6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5759de1085346a0a02483f339d6db7') in 0.005288 seconds
+  Import took 0.007118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.141257 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Buses/Bus_1.prefab
+  artifactKey: Guid(7982fc080c354a942b3561f445489e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Buses/Bus_1.prefab using Guid(7982fc080c354a942b3561f445489e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efa3c3710ac0cc38a539cf7b13ed515') in 0.062638 seconds
+  Import took 0.064546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Buses/Bus_3.prefab
+  artifactKey: Guid(16e5566b784ba1c40bc0e9fe3306319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Buses/Bus_3.prefab using Guid(16e5566b784ba1c40bc0e9fe3306319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e8d5e8ae6e1347513d412866c27139') in 0.005363 seconds
+  Import took 0.006685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Buses/Bus_2.prefab
+  artifactKey: Guid(cd139aa5bd62b5b458ece3376c0955ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Buses/Bus_2.prefab using Guid(cd139aa5bd62b5b458ece3376c0955ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21393243ac5698cb890fb17f0fd615f') in 0.002899 seconds
+  Import took 0.004205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.600578 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Pickups
+  artifactKey: Guid(2df6aa9c4ffaed145aba246e4f6af626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Pickups using Guid(2df6aa9c4ffaed145aba246e4f6af626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c07d1863d48c434ad7b72f1fde9a33') in 0.001113 seconds
+  Import took 0.002686 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.618 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.3 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1644.
+Total: 1.276584 ms (FindLiveObjects: 0.174750 ms CreateObjectMapping: 0.022459 ms MarkObjects: 1.065000 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.197171 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Bike_1.prefab
+  artifactKey: Guid(5afe973f63ed70944a553311d43ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Bike_1.prefab using Guid(5afe973f63ed70944a553311d43ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89901d594bd7810b38acde84f3f0f7d4') in 0.190568 seconds
+  Import took 0.192472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.724153 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Simple Car_6.prefab
+  artifactKey: Guid(5f202a3ee40bc3c46b641001b928c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Simple Car_6.prefab using Guid(5f202a3ee40bc3c46b641001b928c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29854ef8c050375605ce0daccfbeceb1') in 0.021761 seconds
+  Import took 0.023799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.259944 seconds.
+  path: Assets/RoadSigns/Prefabs/Road/WarningTriangles.prefab
+  artifactKey: Guid(802c0efe3462ff9408f9032b674ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadSigns/Prefabs/Road/WarningTriangles.prefab using Guid(802c0efe3462ff9408f9032b674ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c69f534639e362a0ef7655e6fe017d1') in 0.015846 seconds
+  Import took 0.017899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.255740 seconds.
+  path: Assets/RoadSigns/Prefabs/Road/WarningTriangles.prefab
+  artifactKey: Guid(802c0efe3462ff9408f9032b674ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadSigns/Prefabs/Road/WarningTriangles.prefab using Guid(802c0efe3462ff9408f9032b674ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd394dbfe52a8b26f21bc43d52408a7f') in 0.013025 seconds
+  Import took 0.015049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.846573 seconds.
+  path: Assets/RoadSigns/Prefabs/Road/WarningTriangles.prefab
+  artifactKey: Guid(802c0efe3462ff9408f9032b674ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadSigns/Prefabs/Road/WarningTriangles.prefab using Guid(802c0efe3462ff9408f9032b674ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa796f0a66cf80f8bd4b30c3dfddb64') in 0.008317 seconds
+  Import took 0.010297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.637015 seconds.
+  path: Assets/RoadSigns/Prefabs/Road/WarningTriangles.prefab
+  artifactKey: Guid(802c0efe3462ff9408f9032b674ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadSigns/Prefabs/Road/WarningTriangles.prefab using Guid(802c0efe3462ff9408f9032b674ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0646dccfc684ee517f67fac5c0b01b4a') in 0.008542 seconds
+  Import took 0.010568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.590862 seconds.
+  path: Assets/RoadSigns/Prefabs/Road/WarningTriangles.prefab
+  artifactKey: Guid(802c0efe3462ff9408f9032b674ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadSigns/Prefabs/Road/WarningTriangles.prefab using Guid(802c0efe3462ff9408f9032b674ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ae27ef4de4c44012b9786b7d511b41') in 0.012990 seconds
+  Import took 0.014970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.248239 seconds.
+  path: Assets/RoadSigns/Prefabs/Road/WarningTriangles.prefab
+  artifactKey: Guid(802c0efe3462ff9408f9032b674ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadSigns/Prefabs/Road/WarningTriangles.prefab using Guid(802c0efe3462ff9408f9032b674ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4182d618363105f849b2ff75541c0bb4') in 0.012082 seconds
+  Import took 0.014064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.050257 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Simple Car_6.prefab
+  artifactKey: Guid(5f202a3ee40bc3c46b641001b928c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Simple Car_6.prefab using Guid(5f202a3ee40bc3c46b641001b928c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9b62f13e0b8f679d251e331da757dd') in 0.014052 seconds
+  Import took 0.016119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.558483 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Bike_1.prefab
+  artifactKey: Guid(5afe973f63ed70944a553311d43ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Bike_1.prefab using Guid(5afe973f63ed70944a553311d43ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0086939354684b15b6e48896264ac887') in 0.016771 seconds
+  Import took 0.018934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.046515 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Bike_1.prefab
+  artifactKey: Guid(5afe973f63ed70944a553311d43ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Bike_1.prefab using Guid(5afe973f63ed70944a553311d43ebd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6978f807329d68ffb1d91159e414d4b3') in 0.013314 seconds
+  Import took 0.015337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.473471 seconds.
+  path: Assets/Scripts/PlayerHealth.cs
+  artifactKey: Guid(4a10eed2c4a754d208c4ad13b6723531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerHealth.cs using Guid(4a10eed2c4a754d208c4ad13b6723531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd603f58e6e3197a4450eaa39bca10393') in 0.002494 seconds
+  Import took 0.004134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012508 seconds.
+  path: Assets/Scripts/PlayerHealth.cs
+  artifactKey: Guid(4a10eed2c4a754d208c4ad13b6723531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerHealth.cs using Guid(4a10eed2c4a754d208c4ad13b6723531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd603f58e6e3197a4450eaa39bca10393') in 0.002159 seconds
+  Import took 0.003437 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000864 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.701 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1648.
+Total: 1.067917 ms (FindLiveObjects: 0.093500 ms CreateObjectMapping: 0.021250 ms MarkObjects: 0.940959 ms  DeleteObjects: 0.011542 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.746 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1651.
+Total: 1.081709 ms (FindLiveObjects: 0.090417 ms CreateObjectMapping: 0.026917 ms MarkObjects: 0.949916 ms  DeleteObjects: 0.013792 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000342 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.728 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1654.
+Total: 1.269042 ms (FindLiveObjects: 0.130708 ms CreateObjectMapping: 0.021083 ms MarkObjects: 1.102750 ms  DeleteObjects: 0.013625 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000334 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.590 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1657.
+Total: 1.095959 ms (FindLiveObjects: 0.098666 ms CreateObjectMapping: 0.022458 ms MarkObjects: 0.962959 ms  DeleteObjects: 0.011167 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000248 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.728 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.4 MB.
+System memory in use after: 97.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1660.
+Total: 1.106791 ms (FindLiveObjects: 0.095542 ms CreateObjectMapping: 0.023792 ms MarkObjects: 0.974125 ms  DeleteObjects: 0.012625 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000261 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.663 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1663.
+Total: 1.193708 ms (FindLiveObjects: 0.103167 ms CreateObjectMapping: 0.021750 ms MarkObjects: 1.054625 ms  DeleteObjects: 0.013167 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000356 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.586 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 99.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1666.
+Total: 1.108834 ms (FindLiveObjects: 0.116917 ms CreateObjectMapping: 0.022500 ms MarkObjects: 0.957084 ms  DeleteObjects: 0.011542 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000347 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.660 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.9 MB.
+System memory in use after: 101.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1669.
+Total: 1.093542 ms (FindLiveObjects: 0.105000 ms CreateObjectMapping: 0.021125 ms MarkObjects: 0.954209 ms  DeleteObjects: 0.012250 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 833.942494 seconds.
+  path: Assets/Scripts/GameOverManager.cs
+  artifactKey: Guid(60cd0bfc59ccf49f281c3713214ce4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameOverManager.cs using Guid(60cd0bfc59ccf49f281c3713214ce4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7dd7a03f8e752909b20893226f8604b') in 0.006653 seconds
+  Import took 0.008360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006757 seconds.
+  path: Assets/Scripts/GameOverManager.cs
+  artifactKey: Guid(60cd0bfc59ccf49f281c3713214ce4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameOverManager.cs using Guid(60cd0bfc59ccf49f281c3713214ce4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7dd7a03f8e752909b20893226f8604b') in 0.002430 seconds
+  Import took 0.003766 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000342 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.671 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.1 MB.
+System memory in use after: 102.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1672.
+Total: 1.119625 ms (FindLiveObjects: 0.123750 ms CreateObjectMapping: 0.022833 ms MarkObjects: 0.960458 ms  DeleteObjects: 0.011792 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000277 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.741 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1675.
+Total: 1.157083 ms (FindLiveObjects: 0.104125 ms CreateObjectMapping: 0.022750 ms MarkObjects: 1.018250 ms  DeleteObjects: 0.011041 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 361.587966 seconds.
+  path: Assets/Scripts/GameOverManager.cs
+  artifactKey: Guid(60cd0bfc59ccf49f281c3713214ce4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameOverManager.cs using Guid(60cd0bfc59ccf49f281c3713214ce4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084e1c9ca697c108eefa9a99418c1187') in 0.006894 seconds
+  Import took 0.008488 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000650 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.642 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 1.251458 ms (FindLiveObjects: 0.152166 ms CreateObjectMapping: 0.023625 ms MarkObjects: 1.061500 ms  DeleteObjects: 0.013083 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000281 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.789 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.6 MB.
+System memory in use after: 105.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 1.123541 ms (FindLiveObjects: 0.111875 ms CreateObjectMapping: 0.022500 ms MarkObjects: 0.973959 ms  DeleteObjects: 0.014459 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1684.
+Total: 0.825000 ms (FindLiveObjects: 0.091792 ms CreateObjectMapping: 0.014791 ms MarkObjects: 0.708834 ms  DeleteObjects: 0.009000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 693.778119 seconds.
+  path: Assets/Scripts/Mover.cs
+  artifactKey: Guid(7e740afdf0a8c4f59ae8e0320c309e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mover.cs using Guid(7e740afdf0a8c4f59ae8e0320c309e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edea2b77dd7c7cf6627a0cfafbc94b7') in 0.008508 seconds
+  Import took 0.011950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.907022 seconds.
+  path: Assets/Scripts/SceneViewText.cs
+  artifactKey: Guid(9549876df73b7e04bac73492fd5b95c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneViewText.cs using Guid(9549876df73b7e04bac73492fd5b95c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e8b4b5e328e472802d5e4f8066258d') in 0.001959 seconds
+  Import took 0.003214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.124883 seconds.
+  path: Assets/Scripts/ScoreManager.cs
+  artifactKey: Guid(7248201bdc630492785fe66801bd8742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoreManager.cs using Guid(7248201bdc630492785fe66801bd8742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff531f250660eed3cb20a583731d13cc') in 0.001940 seconds
+  Import took 0.003203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.658964 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spawner.cs using Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b109572232038b8e88937ce9b2c40d68') in 0.001865 seconds
+  Import took 0.003145 seconds .
+

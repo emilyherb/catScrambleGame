@@ -30,26 +30,48 @@ public class GameOverManager : MonoBehaviour
     }
 public void PlayAgain()
 {
+    Debug.Log("🔁 PlayAgain() called");
+
     Time.timeScale = 1f;
     endScreenPanel.SetActive(false);
     scoreCanvas.SetActive(true);
     ScoreManager.Instance.ResetScore();
 
-    // Reset player
     GameObject player = GameObject.FindWithTag("Player");
+
     if (player != null)
     {
+        // ✅ Step 1: Reactivate cat FIRST
+        player.SetActive(true);
+        Debug.Log("✅ Reactivated player");
+
+        // ✅ Step 2: Then reset health
         PlayerHealth health = player.GetComponent<PlayerHealth>();
         if (health != null)
         {
             health.ResetHealth();
+            Debug.Log("💖 Reset player health");
+        }
+        else
+        {
+            Debug.LogWarning("No PlayerHealth component found!");
         }
 
-        // Reset position
-        player.transform.position = new Vector3(9.4f, -3.54f, -44.8f); // change to your spawn point!
-        player.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        // ✅ Step 3: Reset position & velocity
+        player.transform.position = new Vector3(9.4f, -3.54f, -44.8f);
+        Rigidbody rb = player.GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.velocity = Vector3.zero;
+        }
+    }
+    else
+    {
+        Debug.LogError("❌ Could not find player GameObject!");
     }
 }
+
+
 
 
     public void ReturnToMainMenu()

@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Building
   - Obstacle
+  - Powerup
+  - Building
   layers:
   - Default
   - TransparentFX
