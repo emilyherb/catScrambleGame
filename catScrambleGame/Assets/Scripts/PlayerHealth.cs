@@ -25,7 +25,20 @@ public class PlayerHealth : MonoBehaviour
     private void Die()
     {
         Debug.Log("Cat died! Game Over!");
-        Time.timeScale = 0f;
+
+        // Show the End Screen
+        GameOverManager gameOver = FindObjectOfType<GameOverManager>();
+        if (gameOver != null)
+        {
+            gameOver.ShowEndScreen();
+        }
+        else
+        {
+            Debug.LogWarning("No GameOverManager found in scene!");
+        }
+
+        // Optionally deactivate the cat GameObject
+        gameObject.SetActive(false);
     }
 
     public int GetCurrentHealth()
@@ -37,4 +50,11 @@ public class PlayerHealth : MonoBehaviour
     {
         return maxHealth;
     }
+public void ResetHealth()
+{
+    currentHealth = maxHealth;
+    Debug.Log("Health reset to max: " + currentHealth);
+}
+
+
 }
