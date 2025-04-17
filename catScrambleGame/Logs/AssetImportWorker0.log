@@ -690,3 +690,589 @@ System memory in use after: 95.1 MB.
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1650.
 Total: 0.783166 ms (FindLiveObjects: 0.074834 ms CreateObjectMapping: 0.015125 ms MarkObjects: 0.682792 ms  DeleteObjects: 0.009833 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1653.
+Total: 0.827708 ms (FindLiveObjects: 0.093792 ms CreateObjectMapping: 0.014708 ms MarkObjects: 0.705583 ms  DeleteObjects: 0.013291 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1695.221291 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-dark.png
+  artifactKey: Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-dark.png using Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f81e5fb9a1d83a8a33dbc4dccad3d7c') in 0.078825 seconds
+  Import took 0.080400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Free Low Poly Vehicle/Models/Air Plane Z_3.fbx
+  artifactKey: Guid(71a10f49249a3bb4e87246ac68305ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Models/Air Plane Z_3.fbx using Guid(71a10f49249a3bb4e87246ac68305ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642a477ed501884fd52ffa7a4fda872f') in 0.507917 seconds
+  Import took 0.509273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Free Low Poly Vehicle/Models/Air Plane Za_13.fbx
+  artifactKey: Guid(c7b4b6b56d3f220449790148ac63f6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Models/Air Plane Za_13.fbx using Guid(c7b4b6b56d3f220449790148ac63f6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a81e9a09ab2ea494ab6669e4dae3a4') in 0.028482 seconds
+  Import took 0.029841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-dark@2x.png
+  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d9d367219e4a831f6123148329bc41') in 0.003667 seconds
+  Import took 0.004731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Free Low Poly Vehicle/Models/Air Plane Zb_2.fbx
+  artifactKey: Guid(245f3ca175160b34a8c7a9a0142f780a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Models/Air Plane Zb_2.fbx using Guid(245f3ca175160b34a8c7a9a0142f780a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942170ed4ca2f0ca0e43ce5e90cd5a7b') in 0.024826 seconds
+  Import took 0.026023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-light@2x.png
+  artifactKey: Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-light@2x.png using Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770db39ddc78cca6300fb33a2b7bc4ee') in 0.002728 seconds
+  Import took 0.003766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-light.png
+  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95452f123378bb77cd4fc829154b6978') in 0.002383 seconds
+  Import took 0.003373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.053455 seconds.
+  path: Assets/Free Low Poly Vehicle/Models/Air Plane Zb_3.fbx
+  artifactKey: Guid(2633b010ccc59c74caafb3c422b0e06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Models/Air Plane Zb_3.fbx using Guid(2633b010ccc59c74caafb3c422b0e06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9820afd019b8c9a6e6f35ed4070381ce') in 0.023104 seconds
+  Import took 0.024573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001260 seconds.
+  path: Assets/Free Low Poly Vehicle/Models/Air Plane Zb_3.fbx
+  artifactKey: Guid(2633b010ccc59c74caafb3c422b0e06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Models/Air Plane Zb_3.fbx using Guid(2633b010ccc59c74caafb3c422b0e06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9820afd019b8c9a6e6f35ed4070381ce') in 0.020212 seconds
+  Import took 0.021390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003791 seconds.
+  path: Assets/Free Low Poly Vehicle/Models/Air Plane Zf_10.fbx
+  artifactKey: Guid(120444a857ea8fa4b9e2909ddd448110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Models/Air Plane Zf_10.fbx using Guid(120444a857ea8fa4b9e2909ddd448110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac6f3132547b5893b445c4cfddc23ab') in 0.011473 seconds
+  Import took 0.012668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Styles/AlertBox.uss
+  artifactKey: Guid(85516056fd2579c45b10c08bc3c52a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Styles/AlertBox.uss using Guid(85516056fd2579c45b10c08bc3c52a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fc3a8f695ddd045ff25dc040c0fce9') in 0.058306 seconds
+  Import took 0.059584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Layouts/AlertBox.uxml
+  artifactKey: Guid(13d7e179675caff4293e8d5c7fb1dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Layouts/AlertBox.uxml using Guid(13d7e179675caff4293e8d5c7fb1dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2407cbd27929847d6b576f384a975d7') in 0.053430 seconds
+  Import took 0.054706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Emergency_Vehicles/Ambulance.prefab
+  artifactKey: Guid(8d1af90125950e342999c5dbdefdd676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Emergency_Vehicles/Ambulance.prefab using Guid(8d1af90125950e342999c5dbdefdd676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3beac239cbd8a29a721ede233ce2b59') in 0.052709 seconds
+  Import took 0.054086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Free Low Poly Vehicle/Models/Ambulance.fbx
+  artifactKey: Guid(e8f52e6c275c8604080727e1a2ee7537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Models/Ambulance.fbx using Guid(e8f52e6c275c8604080727e1a2ee7537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fd441e80b3f2fd03f141d1e087a9fe') in 0.028631 seconds
+  Import took 0.029823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.314581 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/back-dark.png
+  artifactKey: Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/back-dark.png using Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b3dc65c83c8e329f6541560971bde6') in 0.007933 seconds
+  Import took 0.009580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/back-dark@2x.png
+  artifactKey: Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/back-dark@2x.png using Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e982379fdf0836d7ccf48acc26b040') in 0.003599 seconds
+  Import took 0.004591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051707 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/back-light.png
+  artifactKey: Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/back-light.png using Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d53485dc98ce1a084f0ea372bae8ec3') in 0.005381 seconds
+  Import took 0.006726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Free Low Poly Vehicle/Models/Ballon_3.fbx
+  artifactKey: Guid(42d46ed4f511f1945aa855a980bd6037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Models/Ballon_3.fbx using Guid(42d46ed4f511f1945aa855a980bd6037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58aa310c45b0247b70d0185052c261f2') in 0.008316 seconds
+  Import took 0.009514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/back-light@2x.png
+  artifactKey: Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/back-light@2x.png using Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96c2306f5ee0d034f830a866d5dcf6a') in 0.003307 seconds
+  Import took 0.004381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Free Low Poly Vehicle/Models/Ballon_1.fbx
+  artifactKey: Guid(12d4dbd0265f7b241b3184f724b1a08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Models/Ballon_1.fbx using Guid(12d4dbd0265f7b241b3184f724b1a08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ca6226faafcff2be52addc66c6e800') in 0.008844 seconds
+  Import took 0.010011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/back-light.png
+  artifactKey: Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/back-light.png using Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d53485dc98ce1a084f0ea372bae8ec3') in 0.003184 seconds
+  Import took 0.004122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088284 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Props/Other/Barrier.prefab
+  artifactKey: Guid(1567cd1857ec2e243b6f7ca126522873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Props/Other/Barrier.prefab using Guid(1567cd1857ec2e243b6f7ca126522873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66062207934203c5f29411d46af6074') in 0.006654 seconds
+  Import took 0.008078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Styles/BaseChangeListElement.uss
+  artifactKey: Guid(1e9148bf9d78e0943aeac7855e43585e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Styles/BaseChangeListElement.uss using Guid(1e9148bf9d78e0943aeac7855e43585e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd242286870a88beec8450855abbd90b8') in 0.002841 seconds
+  Import took 0.003795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Layouts/BaseChangeListElement.uxml
+  artifactKey: Guid(bef3e204cca87f74199fb125d726b453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Layouts/BaseChangeListElement.uxml using Guid(bef3e204cca87f74199fb125d726b453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03d53be29d3f95363707c6aa2774c53') in 0.002384 seconds
+  Import took 0.003218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Barrier.fbx
+  artifactKey: Guid(265d85e2c2f909a41830a0feac47986c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Barrier.fbx using Guid(265d85e2c2f909a41830a0feac47986c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8eb21926c2678068d36e275a477fa9') in 0.043956 seconds
+  Import took 0.045369 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000166 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1695.
+Total: 0.807750 ms (FindLiveObjects: 0.082416 ms CreateObjectMapping: 0.015875 ms MarkObjects: 0.697125 ms  DeleteObjects: 0.012000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1066.095105 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset
+  artifactKey: Guid(f1aad78144e54114dab70c9aed2ee2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset using Guid(f1aad78144e54114dab70c9aed2ee2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44cf3ee262b305a2ddd066c3e2988f7') in 0.004057 seconds
+  Import took 0.005347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.061408 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset
+  artifactKey: Guid(86427e219868479409accba107783097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset using Guid(86427e219868479409accba107783097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b5435c1af7ed5f7b431289148f80e5') in 0.000939 seconds
+  Import took 0.002122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.890779 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs
+  artifactKey: Guid(a821170fa53b5dd4c8be13441a126ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs using Guid(a821170fa53b5dd4c8be13441a126ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf368316ce842a5109ed408f3fb45bc') in 0.000857 seconds
+  Import took 0.002154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050592 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Banner1 V1.prefab
+  artifactKey: Guid(59e7de779704ed549a6f84aa959b339e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Banner1 V1.prefab using Guid(59e7de779704ed549a6f84aa959b339e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094ac53d6aa0d8fe062f711108b72ad7') in 0.151827 seconds
+  Import took 0.153313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Bowl1 V3.prefab
+  artifactKey: Guid(6f82177e8eac2f8479405164f9ee3e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Bowl1 V3.prefab using Guid(6f82177e8eac2f8479405164f9ee3e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c20da177df27851c10cdef4cd3c3a5') in 0.009703 seconds
+  Import took 0.010912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/ScratchingPost5 V3.prefab
+  artifactKey: Guid(8407b3b2a713ffe458f972dee5aa56cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/ScratchingPost5 V3.prefab using Guid(8407b3b2a713ffe458f972dee5aa56cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec383b88efb1b3cc655bf3e35e22b38f') in 0.005471 seconds
+  Import took 0.006569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Bed5 V3.prefab
+  artifactKey: Guid(7d36e7b4ee2d82b4f99c90420adfdde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Bed5 V3.prefab using Guid(7d36e7b4ee2d82b4f99c90420adfdde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d514fef946666d4f71dda91ca12a79') in 0.009073 seconds
+  Import took 0.010233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Toy5 V3.prefab
+  artifactKey: Guid(510737c6a27fe0543bb5254b82157cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Toy5 V3.prefab using Guid(510737c6a27fe0543bb5254b82157cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6970b92d539eaf5e3f3a6218fcf77e8') in 0.004765 seconds
+  Import took 0.005819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Collar2 V2.prefab
+  artifactKey: Guid(33185712d71d5dc49a2b3d190e85ef23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Collar2 V2.prefab using Guid(33185712d71d5dc49a2b3d190e85ef23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce934b09ba18cfd45d64892ac59e2d65') in 0.004984 seconds
+  Import took 0.006323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Collar1 V3.prefab
+  artifactKey: Guid(2ab03d2e585950a48bc6f39cac43bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Collar1 V3.prefab using Guid(2ab03d2e585950a48bc6f39cac43bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727c4dddd0f253debecdce24868c12ef') in 0.005142 seconds
+  Import took 0.006203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Banner3 V2.prefab
+  artifactKey: Guid(6e67e2806a0743447b5a825fea70331c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Banner3 V2.prefab using Guid(6e67e2806a0743447b5a825fea70331c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c56e04be82a84c63b5cf96ff595973') in 0.004950 seconds
+  Import took 0.006063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Bed3 V1.prefab
+  artifactKey: Guid(93c683789e00da843a6e2c1ca22bc33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Bed3 V1.prefab using Guid(93c683789e00da843a6e2c1ca22bc33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb4da2f812e757a1657f2618b11634c') in 0.008836 seconds
+  Import took 0.010160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Rack2 V1.prefab
+  artifactKey: Guid(d48ab2f8a23f1b144ad55f8c2be59a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Rack2 V1.prefab using Guid(d48ab2f8a23f1b144ad55f8c2be59a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b400707bb2fcb29f95e17c53b43deb91') in 0.005013 seconds
+  Import took 0.006099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Food2 V1.prefab
+  artifactKey: Guid(a5818ffeca710d14d96a33bd85f797f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Food2 V1.prefab using Guid(a5818ffeca710d14d96a33bd85f797f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccafe93b7254fb47fbaabf71ae220e2') in 0.005386 seconds
+  Import took 0.006641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Leash2 V2.prefab
+  artifactKey: Guid(21006a81165e5b047bc9ae4c9d7250f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Leash2 V2.prefab using Guid(21006a81165e5b047bc9ae4c9d7250f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de93fe8395262cf3bc664ea8aebd3636') in 0.005059 seconds
+  Import took 0.006298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Food3 V3.prefab
+  artifactKey: Guid(a1e539a7ba87053438ccd7f169592f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Prefabs/Food3 V3.prefab using Guid(a1e539a7ba87053438ccd7f169592f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9784292451feae9be7d6795960b89f11') in 0.004776 seconds
+  Import took 0.006021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.561982 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models
+  artifactKey: Guid(233491e91be073f45bc61b9037a4e46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models using Guid(233491e91be073f45bc61b9037a4e46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af563c863075fa60b89f047f527903c4') in 0.000704 seconds
+  Import took 0.001842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.754627 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BedsToys
+  artifactKey: Guid(b75e58ae59e5199499d8e72deeefeccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BedsToys using Guid(b75e58ae59e5199499d8e72deeefeccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ca2cef9452eed7743493ec3e93c7f7') in 0.000856 seconds
+  Import took 0.001970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.371971 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BedsToys/Bed3.fbx
+  artifactKey: Guid(afa2ce319ac355842b614671057c2ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BedsToys/Bed3.fbx using Guid(afa2ce319ac355842b614671057c2ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e8cc443db96a7d5f0084c8d0841d46') in 0.109300 seconds
+  Import took 0.110789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BedsToys/Toy5.fbx
+  artifactKey: Guid(5a9865c1c3a35744396f132d22bf9f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BedsToys/Toy5.fbx using Guid(5a9865c1c3a35744396f132d22bf9f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a6011c3e35974b2368bb7742ee3aae') in 0.006785 seconds
+  Import took 0.007871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BedsToys/Bed5.fbx
+  artifactKey: Guid(6006bbdf80424e047a0d78d5d71ba307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Models/BedsToys/Bed5.fbx using Guid(6006bbdf80424e047a0d78d5d71ba307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00f331110af93bf4da0f810ce189f35') in 0.022673 seconds
+  Import took 0.023936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.113204 seconds.
+  path: Assets/cat toys
+  artifactKey: Guid(a79c3dfa7463621418ecbb353ed65281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys using Guid(a79c3dfa7463621418ecbb353ed65281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92ef16857c94c18845415a4d552ea1d') in 0.001348 seconds
+  Import took 0.002804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.945328 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings
+  artifactKey: Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings using Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca1225e92ee2e11a693ed3bf1c30361') in 0.000915 seconds
+  Import took 0.002166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042952 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings/Global Volume Profile.asset
+  artifactKey: Guid(ebe42df5deaabb54197775e6206fb697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings/Global Volume Profile.asset using Guid(ebe42df5deaabb54197775e6206fb697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf70eb882fdd1227e7b6b0c693422e2') in 0.044365 seconds
+  Import took 0.045854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd8736bbfc91ff2d6a9bed819b0519e') in 0.001199 seconds
+  Import took 0.001992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577d05aafa7bbebae4c4824cbcd2915e') in 0.000696 seconds
+  Import took 0.001397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b995e55535005b82aea1afe4f97723e') in 0.000834 seconds
+  Import took 0.001589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings/UniversalRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings/UniversalRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf4186da7c9bb81ff8f647e82fe888a') in 0.000871 seconds
+  Import took 0.001606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c010dddaf56896c0c3cc0d4558c55e1f') in 0.000770 seconds
+  Import took 0.001596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.321529 seconds.
+  path: Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures
+  artifactKey: Guid(3d2772138c146544d9e5f56ee5a40dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cat toys/Small Kit 3D Stylized Petshop Asset/Asset/Textures using Guid(3d2772138c146544d9e5f56ee5a40dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1785c3bfb25f83eb9165c5672ac9c53c') in 0.000857 seconds
+  Import took 0.002005 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000371 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.812 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.3 MB.
+System memory in use after: 118.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 1.299334 ms (FindLiveObjects: 0.141375 ms CreateObjectMapping: 0.023833 ms MarkObjects: 1.107583 ms  DeleteObjects: 0.025708 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 858.200551 seconds.
+  path: Assets/Scripts/StartMenu.cs
+  artifactKey: Guid(a5c506c35deda4288ab4bc88ae793f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartMenu.cs using Guid(a5c506c35deda4288ab4bc88ae793f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2ec94d8e2624db64b3b9713a087ba2') in 0.009807 seconds
+  Import took 0.011426 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000290 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.728 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.5 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 1.133583 ms (FindLiveObjects: 0.108584 ms CreateObjectMapping: 0.021958 ms MarkObjects: 0.990500 ms  DeleteObjects: 0.011791 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000316 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.725 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1705.
+Total: 1.137792 ms (FindLiveObjects: 0.115959 ms CreateObjectMapping: 0.022292 ms MarkObjects: 0.985291 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.656 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.8 MB.
+System memory in use after: 121.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 1.140083 ms (FindLiveObjects: 0.130917 ms CreateObjectMapping: 0.022208 ms MarkObjects: 0.974958 ms  DeleteObjects: 0.011292 ms)
+

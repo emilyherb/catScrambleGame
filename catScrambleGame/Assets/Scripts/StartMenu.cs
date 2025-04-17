@@ -4,54 +4,56 @@ using System.Collections.Generic;
 
 public class StartMenu : MonoBehaviour
 {
-    public GameObject startMenuCanvas;        // Drag your Start Menu canvas here
-    public GameObject optionsMenuCanvas;      // Drag your Options Menu canvas here
-    public Dropdown musicDropdown;            // Drag your Dropdown UI element here
+    public GameObject mainPanel;         // Drag MainPanel here
+    public GameObject optionsPanel;      // Drag OptionsPanel here
+    public Dropdown musicDropdown;       // Drag MusicDropdown here
 
     void Start()
     {
-        // Pause the game when it starts
+        // Pause the game at the beginning
         Time.timeScale = 0f;
 
-        // Populate music dropdown
+        // Set panels: main visible, options hidden
+        mainPanel.SetActive(true);
+        optionsPanel.SetActive(false);
+
+        // Populate music dropdown from AudioManager
         musicDropdown.ClearOptions();
         var options = new List<string>();
 
         foreach (var clip in AudioManager.Instance.musicClips)
         {
-            options.Add(clip.name); // You can customize how these names appear
+            options.Add(clip.name);
         }
 
         musicDropdown.AddOptions(options);
 
-        // Load saved music index
+        // Load and set previously selected song
         int savedMusicIndex = PlayerPrefs.GetInt("SelectedSong", 0);
         musicDropdown.value = savedMusicIndex;
         musicDropdown.RefreshShownValue();
-
-        // Play the saved song
         AudioManager.Instance.PlayMusic(savedMusicIndex);
 
-        // Add dropdown listener
+        // Add listener
         musicDropdown.onValueChanged.AddListener(OnMusicDropdownChanged);
     }
 
     public void StartGame()
     {
         Time.timeScale = 1f;
-        startMenuCanvas.SetActive(false);
+        mainPanel.SetActive(false);
     }
 
     public void OpenOptions()
     {
-        optionsMenuCanvas.SetActive(true);
-        startMenuCanvas.SetActive(false);
+        optionsPanel.SetActive(true);
+        mainPanel.SetActive(false);
     }
 
     public void CloseOptions()
     {
-        optionsMenuCanvas.SetActive(false);
-        startMenuCanvas.SetActive(true);
+        optionsPanel.SetActive(false);
+        mainPanel.SetActive(true);
     }
 
     public void ExitGame()
