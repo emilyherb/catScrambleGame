@@ -20,42 +20,40 @@ public class Spawner : MonoBehaviour
         InvokeRepeating(nameof(Spawn), 0f, spawnInterval);
     }
 
-void Spawn()
-{
-    float x = spawnXOptions[Random.Range(0, spawnXOptions.Length)];
-    float y = Random.Range(-boxSize.y / 2, boxSize.y / 2);
-    float z = Random.Range(boxSize.z / 2, boxSize.z);
-
-    Vector3 spawnPos = spawnCenter + new Vector3(x, y, z);
-
-    Debug.Log("Spawn Position: " + spawnPos);
-
-    GameObject prefabToSpawn;
-
-    if (Random.value < powerupSpawnChance && powerupPrefabs.Length > 0)
+    void Spawn()
     {
-        prefabToSpawn = powerupPrefabs[Random.Range(0, powerupPrefabs.Length)];
+        float x = spawnXOptions[Random.Range(0, spawnXOptions.Length)];
+        float y = Random.Range(-boxSize.y / 2, boxSize.y / 2);
+        float z = Random.Range(boxSize.z / 2, boxSize.z);
+
+        Vector3 spawnPos = spawnCenter + new Vector3(x, y, z);
+
+        Debug.Log("Spawn Position: " + spawnPos);
+
+        GameObject prefabToSpawn;
+        bool isPowerup = false;
+
+        if (Random.value < powerupSpawnChance && powerupPrefabs.Length > 0)
+        {
+            prefabToSpawn = powerupPrefabs[Random.Range(0, powerupPrefabs.Length)];
+            isPowerup = true;
+        }
+        else
+        {
+            prefabToSpawn = obstaclePrefabs[Random.Range(0, obstaclePrefabs.Length)];
+        }
+
+        GameObject obj = Instantiate(prefabToSpawn, spawnPos, Quaternion.identity);
+
+        // Assign tag based on type
+        obj.tag = isPowerup ? "Powerup" : "Obstacle";
+
+        // Scale accordingly
+        obj.transform.localScale = Vector3.one * (isPowerup ? 30f : 10f);
+
+        obj.AddComponent<Mover>().Initialize(moveDirection, moveSpeed, despawnZ);
     }
-    else
-    {
-        prefabToSpawn = obstaclePrefabs[Random.Range(0, obstaclePrefabs.Length)];
-    }
 
-    GameObject obj = Instantiate(prefabToSpawn, spawnPos, Quaternion.identity);
-    if (prefabToSpawn.CompareTag("Powerup"))
-{
-    obj.transform.localScale = Vector3.one * 30f;
-}
-else
-{
-    obj.transform.localScale = Vector3.one * 10f;
-}
-
-    obj.AddComponent<Mover>().Initialize(moveDirection, moveSpeed, despawnZ);
-}
-
-
- 
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
