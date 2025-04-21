@@ -12,222 +12,61 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49279
+49612
 Successfully changed project path to: /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame
 /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 17.92 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 18.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Assets
 GfxDevice: creating device client; threaded=0
-2025-04-21 08:57:04.815 Unity[1442:57599] (null) preferred device: Apple M4 Pro (high power)
-2025-04-21 08:57:04.815 Unity[1442:57599] Metal devices available: 1
-2025-04-21 08:57:04.815 Unity[1442:57599] 0: Apple M4 Pro (high power)
-2025-04-21 08:57:04.815 Unity[1442:57599] Using device Apple M4 Pro (high power)
+2025-04-21 14:00:31.811 Unity[2567:135956] (null) preferred device: Apple M4 Pro (high power)
+2025-04-21 14:00:31.812 Unity[2567:135956] Metal devices available: 1
+2025-04-21 14:00:31.812 Unity[2567:135956] 0: Apple M4 Pro (high power)
+2025-04-21 14:00:31.812 Unity[2567:135956] Using device Apple M4 Pro (high power)
 Initializing Metal device caps: Apple M4 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56442
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56567
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000250 seconds.
+Registered in 0.000233 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 16.68 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 16.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.995 seconds
+- Completed reload, in  0.991 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000189 seconds.
+Registered in 0.000166 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x7fc062d04c00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file data-0x7fa10960a400 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0383d0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file data-0x7fa100118000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc062d20800 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file data-0x7fa109620000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0383d0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file data-0x7fa100118000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0384c0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file data-0x7fa100218000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0383d0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file data-0x7fa100118000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0384c0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file data-0x7fa100218000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0383d0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file data-0x7fa100118000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0384e8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file data-0x7fa100240000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc062d26c00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.022 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.2 MB.
-System memory in use after: 64.3 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1583.
-Total: 0.870667 ms (FindLiveObjects: 0.095667 ms CreateObjectMapping: 0.014250 ms MarkObjects: 0.709042 ms  DeleteObjects: 0.051209 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Ladymito
-  artifactKey: Guid(2fa4449fb79c84068838daef9f1245c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ladymito using Guid(2fa4449fb79c84068838daef9f1245c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa2714d58823b346ed82631623a6729') in 0.005237 seconds
-  Import took 0.006495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Level 2.unity
-  artifactKey: Guid(71adbad53e4534145ab01e5ad2794ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level 2.unity using Guid(71adbad53e4534145ab01e5ad2794ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4db369a99124a1a3a1311da0b5467d1') in 0.008559 seconds
-  Import took 0.009562 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 40.6 MB.
-System memory in use after: 40.7 MB.
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1583.
-Total: 1.063292 ms (FindLiveObjects: 0.082500 ms CreateObjectMapping: 0.017208 ms MarkObjects: 0.948125 ms  DeleteObjects: 0.014583 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 173.207518 seconds.
-  path: Assets/MainScene.unity
-  artifactKey: Guid(5461462ac70454c7894213608598a840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainScene.unity using Guid(5461462ac70454c7894213608598a840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6595d2f4abdfd954ce823bb5156e03') in 0.002119 seconds
-  Import took 0.004803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.766990 seconds.
-  path: Assets/MainScene 1.unity
-  artifactKey: Guid(47c5dfc00556d4dd89471aa9bcb0feb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainScene 1.unity using Guid(47c5dfc00556d4dd89471aa9bcb0feb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e4d0f9b9f26a7073b16d480cb8285a') in 0.001338 seconds
-  Import took 0.002632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.043903 seconds.
-  path: Assets/Tutorial.unity
-  artifactKey: Guid(47c5dfc00556d4dd89471aa9bcb0feb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tutorial.unity using Guid(47c5dfc00556d4dd89471aa9bcb0feb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a544f1f565e9368edd6fec41e026d36d') in 0.001224 seconds
-  Import took 0.002803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.724391 seconds.
-  path: Assets/MainScene 1.unity
-  artifactKey: Guid(2bade99aab08542a6a52a61487639e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainScene 1.unity using Guid(2bade99aab08542a6a52a61487639e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2c6874b5838ffdcebccea1d64a911d') in 0.001313 seconds
-  Import took 0.002655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.173626 seconds.
-  path: Assets/Level 1.unity
-  artifactKey: Guid(2bade99aab08542a6a52a61487639e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level 1.unity using Guid(2bade99aab08542a6a52a61487639e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff7d4b1ac07cf190f53f8281aaba374') in 0.001133 seconds
-  Import took 0.002494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.527840 seconds.
-  path: Assets/MainScene 1.unity
-  artifactKey: Guid(b789170abb2e94f429fd4cb38b9d0632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainScene 1.unity using Guid(b789170abb2e94f429fd4cb38b9d0632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73378109548cc8fb2a20c898131816a6') in 0.001369 seconds
-  Import took 0.002672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.238880 seconds.
-  path: Assets/Level 2.unity
-  artifactKey: Guid(b789170abb2e94f429fd4cb38b9d0632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level 2.unity using Guid(b789170abb2e94f429fd4cb38b9d0632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d14b1204a8ad567698ab0386c59ff2') in 0.000988 seconds
-  Import took 0.002255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.046761 seconds.
-  path: Assets/MainScene 1.unity
-  artifactKey: Guid(53b889eef6caf4411a5d61474bf1a291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainScene 1.unity using Guid(53b889eef6caf4411a5d61474bf1a291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6f28fb94586ac48af1e454538b96c1') in 0.001373 seconds
-  Import took 0.002909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.300325 seconds.
-  path: Assets/Endless Mode.unity
-  artifactKey: Guid(53b889eef6caf4411a5d61474bf1a291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Endless Mode.unity using Guid(53b889eef6caf4411a5d61474bf1a291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f4ee9e86129fab6b21e9bd83d3e645') in 0.001072 seconds
-  Import took 0.002453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.913757 seconds.
-  path: Assets/MainScene 1.unity
-  artifactKey: Guid(504d282ed440145fea38164b48259a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainScene 1.unity using Guid(504d282ed440145fea38164b48259a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf815a89f6439c504112b030d973438') in 0.001300 seconds
-  Import took 0.002692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.957690 seconds.
-  path: Assets/Level 3.unity
-  artifactKey: Guid(504d282ed440145fea38164b48259a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level 3.unity using Guid(504d282ed440145fea38164b48259a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3c459527542c2e4c1e4cdbdcb23d67') in 0.001071 seconds
-  Import took 0.002565 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000195 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0x7fc0630e8600 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0580f0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0630e8600 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0580f0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0581e0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0580f0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0581e0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0580f0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc058208000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0630fa600 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file data-0x7fa109627c00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
@@ -236,41 +75,385 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.873 seconds
+- Completed reload, in  0.927 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.6 MB.
-System memory in use after: 64.7 MB.
+Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.2 MB.
+System memory in use after: 64.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1586.
-Total: 0.764083 ms (FindLiveObjects: 0.090125 ms CreateObjectMapping: 0.014250 ms MarkObjects: 0.648875 ms  DeleteObjects: 0.010458 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1583.
+Total: 0.878333 ms (FindLiveObjects: 0.106500 ms CreateObjectMapping: 0.015541 ms MarkObjects: 0.712792 ms  DeleteObjects: 0.043042 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Air Plane Z_3.prefab
+  artifactKey: Guid(1a32a824c4377074a8ba30c9e65d088e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Air Plane Z_3.prefab using Guid(1a32a824c4377074a8ba30c9e65d088e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f79bb3fa6e7b9d59808cf405793d672') in 0.583440 seconds
+  Import took 0.584900 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000201 seconds.
+Registered in 0.000170 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x7fc0620e7800 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file data-0x7fa109d6a400 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0580c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file data-0x7fa1180d0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0624ca600 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file data-0x7fa109d6a400 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0580c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file data-0x7fa1180d0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0581b8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file data-0x7fa118118000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0580c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file data-0x7fa118180000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0581b8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file data-0x7fa118118000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0580c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file data-0x7fa118180000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0581e0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file data-0x7fa118140000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0624ca600 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file data-0x7fa109d7bc00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.3 MB.
+System memory in use after: 70.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1593.
+Total: 0.712875 ms (FindLiveObjects: 0.080875 ms CreateObjectMapping: 0.013458 ms MarkObjects: 0.611125 ms  DeleteObjects: 0.006792 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 475.621162 seconds.
+  path: Assets/Level 3.unity
+  artifactKey: Guid(504d282ed440145fea38164b48259a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 3.unity using Guid(504d282ed440145fea38164b48259a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e2f06e775abbda33fe9d5d681004c7') in 0.010956 seconds
+  Import took 0.012500 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000198 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa10948a400 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100150000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa109599800 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100150000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100240000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100150000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100240000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100150000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100268000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa109599800 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1596.
+Total: 0.743875 ms (FindLiveObjects: 0.087000 ms CreateObjectMapping: 0.014708 ms MarkObjects: 0.631500 ms  DeleteObjects: 0.010250 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.746790 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spawner.cs using Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21e30e9e7c236528a3251ab997883ae') in 0.138713 seconds
+  Import took 0.140114 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000166 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa1284fe600 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0e80c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1284fe600 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0e80c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0e81b8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0e80c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0e81b8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0e80c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0e81e0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa128510e00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.3 MB.
+System memory in use after: 76.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1599.
+Total: 0.771500 ms (FindLiveObjects: 0.068000 ms CreateObjectMapping: 0.014250 ms MarkObjects: 0.676250 ms  DeleteObjects: 0.012458 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.298589 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spawner.cs using Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66af8f12d5a33365e91a781a41c758b') in 0.003620 seconds
+  Import took 0.004795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036893 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spawner.cs using Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66af8f12d5a33365e91a781a41c758b') in 0.000634 seconds
+  Import took 0.001581 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000243 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa109dbd200 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa110718000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa109dcf200 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa110718000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa110860000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa110718000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa110860000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa110718000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa110888000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa109dd5e00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.5 MB.
+System memory in use after: 77.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1602.
+Total: 0.782958 ms (FindLiveObjects: 0.089666 ms CreateObjectMapping: 0.019000 ms MarkObjects: 0.666375 ms  DeleteObjects: 0.007292 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000167 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa12f6b4e00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1180c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa12f6dce00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1180c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1181b8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1180c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1181b8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1180c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1181e0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa12f6e3a00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.6 MB.
+System memory in use after: 78.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1605.
+Total: 0.788625 ms (FindLiveObjects: 0.101959 ms CreateObjectMapping: 0.014375 ms MarkObjects: 0.662417 ms  DeleteObjects: 0.009208 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000216 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa10a009200 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f0078000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa10a00c600 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f0078000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f00c0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f0078000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f0128000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f0078000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa0f00f0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa10a031e00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.8 MB.
+System memory in use after: 79.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1608.
+Total: 0.805500 ms (FindLiveObjects: 0.075000 ms CreateObjectMapping: 0.015125 ms MarkObjects: 0.705333 ms  DeleteObjects: 0.009500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000197 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa109063e00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100108000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa109136400 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100108000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100230000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100108000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100230000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100108000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100258000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa10913c800 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 0.791916 ms (FindLiveObjects: 0.069584 ms CreateObjectMapping: 0.015084 ms MarkObjects: 0.697541 ms  DeleteObjects: 0.009125 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000170 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa12f3fb800 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100100000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa12f3fe400 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100100000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100230000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100100000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100230000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100100000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa100258000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa12f407000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
@@ -281,55 +464,12 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.891 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.8 MB.
-System memory in use after: 65.9 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1589.
-Total: 0.767042 ms (FindLiveObjects: 0.094500 ms CreateObjectMapping: 0.016791 ms MarkObjects: 0.644417 ms  DeleteObjects: 0.010917 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000204 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0x7fc0311da600 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0180c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0311da600 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0180c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc018110000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0180c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc018110000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0180c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc018138000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fc0311e6c00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.0 MB.
-System memory in use after: 67.1 MB.
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1592.
-Total: 0.751875 ms (FindLiveObjects: 0.083916 ms CreateObjectMapping: 0.014667 ms MarkObjects: 0.643125 ms  DeleteObjects: 0.009666 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1614.
+Total: 0.746125 ms (FindLiveObjects: 0.084166 ms CreateObjectMapping: 0.014292 ms MarkObjects: 0.637958 ms  DeleteObjects: 0.008667 ms)
 
