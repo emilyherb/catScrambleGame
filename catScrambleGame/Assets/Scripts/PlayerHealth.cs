@@ -1,9 +1,14 @@
 using UnityEngine;
 
+
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 3;
     private int currentHealth;
+    public AudioSource audioSource;
+    public AudioClip deathSound;
+    public AudioClip powerupSound;
+    public AudioClip damageSound;
 
     void Start()
     {
@@ -22,24 +27,33 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    private void Die()
+private void Die()
+{
+    Debug.Log("Cat died! Game Over!");
+
+    if (audioSource != null && deathSound != null)
     {
-        Debug.Log("Cat died! Game Over!");
-
-        // Show the End Screen
-        GameOverManager gameOver = FindObjectOfType<GameOverManager>();
-        if (gameOver != null)
-        {
-            gameOver.ShowEndScreen();
-        }
-        else
-        {
-            Debug.LogWarning("No GameOverManager found in scene!");
-        }
-
-        // Optionally deactivate the cat GameObject
-        gameObject.SetActive(false);
+        audioSource.PlayOneShot(deathSound);
     }
+    else
+    {
+        Debug.LogWarning("Missing audio source or death sound!");
+    }
+
+    // Show the End Screen
+    GameOverManager gameOver = FindObjectOfType<GameOverManager>();
+    if (gameOver != null)
+    {
+        gameOver.ShowEndScreen();
+    }
+    else
+    {
+        Debug.LogWarning("No GameOverManager found in scene!");
+    }
+
+    gameObject.SetActive(false);
+}
+
 
     public int GetCurrentHealth()
     {
@@ -62,7 +76,27 @@ void OnTriggerEnter(Collider other)
         RestoreHealth(1); // You could adjust this number if needed
 
         Destroy(other.gameObject); // Remove the powerup from the world
+        if (audioSource != null && powerupSound != null)
+    {
+        audioSource.PlayOneShot(powerupSound);
     }
+    else
+    {
+        Debug.LogWarning("Missing audio source or powerup sound!");
+    }
+    }
+    if (other.CompareTag("Obstacle"))
+    {
+        if (audioSource != null && damageSound != null)
+    {
+        audioSource.PlayOneShot(damageSound);
+    }
+    else
+    {
+        Debug.LogWarning("Missing audio source or damage sound!");
+    }
+    }
+
 }
 public void RestoreHealth(int amount)
 {
