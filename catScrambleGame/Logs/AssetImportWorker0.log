@@ -12,167 +12,92 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49612
+52137
 Successfully changed project path to: /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame
 /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 18.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 18.94 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Assets
 GfxDevice: creating device client; threaded=0
-2025-04-21 14:00:31.811 Unity[2567:135956] (null) preferred device: Apple M4 Pro (high power)
-2025-04-21 14:00:31.812 Unity[2567:135956] Metal devices available: 1
-2025-04-21 14:00:31.812 Unity[2567:135956] 0: Apple M4 Pro (high power)
-2025-04-21 14:00:31.812 Unity[2567:135956] Using device Apple M4 Pro (high power)
+2025-04-26 10:22:57.378 Unity[27469:5059495] (null) preferred device: Apple M4 Pro (high power)
+2025-04-26 10:22:57.379 Unity[27469:5059495] Metal devices available: 1
+2025-04-26 10:22:57.379 Unity[27469:5059495] 0: Apple M4 Pro (high power)
+2025-04-26 10:22:57.379 Unity[27469:5059495] Using device Apple M4 Pro (high power)
 Initializing Metal device caps: Apple M4 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56567
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56469
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000233 seconds.
+Registered in 0.000270 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 16.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 17.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.991 seconds
+- Completed reload, in  0.959 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000166 seconds.
+Registered in 0.000171 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x7fa10960a400 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100118000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa109620000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100118000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100218000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100118000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100218000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100118000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100240000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa109627c00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.927 seconds
+- Completed reload, in  1.064 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 64.2 MB.
 System memory in use after: 64.3 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1583.
-Total: 0.878333 ms (FindLiveObjects: 0.106500 ms CreateObjectMapping: 0.015541 ms MarkObjects: 0.712792 ms  DeleteObjects: 0.043042 ms)
+Total: 0.919958 ms (FindLiveObjects: 0.077375 ms CreateObjectMapping: 0.016042 ms MarkObjects: 0.772958 ms  DeleteObjects: 0.052917 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Free Low Poly Vehicle/Pefabs/Air Plane Z_3.prefab
-  artifactKey: Guid(1a32a824c4377074a8ba30c9e65d088e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Low Poly Vehicle/Pefabs/Air Plane Z_3.prefab using Guid(1a32a824c4377074a8ba30c9e65d088e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f79bb3fa6e7b9d59808cf405793d672') in 0.583440 seconds
-  Import took 0.584900 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000170 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0x7fa109d6a400 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa1180d0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa109d6a400 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa1180d0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa118118000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa118180000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa118118000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa118180000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa118140000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa109d7bc00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.876 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.3 MB.
-System memory in use after: 70.4 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1593.
-Total: 0.712875 ms (FindLiveObjects: 0.080875 ms CreateObjectMapping: 0.013458 ms MarkObjects: 0.611125 ms  DeleteObjects: 0.006792 ms)
+  path: Assets/MainScene.unity
+  artifactKey: Guid(5461462ac70454c7894213608598a840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainScene.unity using Guid(5461462ac70454c7894213608598a840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e8d43f784459b762bdc550fee94e57') in 0.012565 seconds
+  Import took 0.013787 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 475.621162 seconds.
+  Time since last request: 1.577159 seconds.
+  path: Assets/MainScene.unity
+  artifactKey: Guid(5461462ac70454c7894213608598a840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainScene.unity using Guid(5461462ac70454c7894213608598a840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e8d43f784459b762bdc550fee94e57') in 0.001173 seconds
+  Import took 0.002379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.842286 seconds.
   path: Assets/Level 3.unity
   artifactKey: Guid(504d282ed440145fea38164b48259a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level 3.unity using Guid(504d282ed440145fea38164b48259a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e2f06e775abbda33fe9d5d681004c7') in 0.010956 seconds
-  Import took 0.012500 seconds .
+Start importing Assets/Level 3.unity using Guid(504d282ed440145fea38164b48259a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dba167d2ed8dd53307458ee033e0725') in 0.001165 seconds
+  Import took 0.002557 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000198 seconds.
+Registered in 0.000242 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x7fa10948a400 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100150000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa109599800 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100150000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100240000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100150000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100240000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100150000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100268000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa109599800 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -180,152 +105,970 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.935 seconds
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1586.
+Total: 0.770084 ms (FindLiveObjects: 0.087708 ms CreateObjectMapping: 0.015125 ms MarkObjects: 0.655417 ms  DeleteObjects: 0.011292 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 369.678011 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(b19bce0714dd8416dbdf9110e5b87cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(b19bce0714dd8416dbdf9110e5b87cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e5ed99be9e6a55be96dddec6317bac') in 0.004130 seconds
+  Import took 0.005586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.713281 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777e927d0b238e2cde0f6869e17df74c') in 0.010897 seconds
+  Import took 0.012643 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000294 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.5 MB.
+System memory in use after: 66.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1589.
+Total: 0.739458 ms (FindLiveObjects: 0.081667 ms CreateObjectMapping: 0.013333 ms MarkObjects: 0.632333 ms  DeleteObjects: 0.011708 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.5 MB.
-System memory in use after: 71.6 MB.
+System memory in use before: 67.7 MB.
+System memory in use after: 67.8 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1596.
-Total: 0.743875 ms (FindLiveObjects: 0.087000 ms CreateObjectMapping: 0.014708 ms MarkObjects: 0.631500 ms  DeleteObjects: 0.010250 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.746790 seconds.
-  path: Assets/Scripts/Spawner.cs
-  artifactKey: Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Spawner.cs using Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21e30e9e7c236528a3251ab997883ae') in 0.138713 seconds
-  Import took 0.140114 seconds .
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1592.
+Total: 0.760292 ms (FindLiveObjects: 0.082208 ms CreateObjectMapping: 0.015917 ms MarkObjects: 0.647166 ms  DeleteObjects: 0.014250 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000166 seconds.
+Registered in 0.000202 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x7fa1284fe600 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0e80c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa1284fe600 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0e80c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0e81b8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0e80c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0e81b8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0e80c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0e81e0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa128510e00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.037 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.3 MB.
-System memory in use after: 76.4 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1599.
-Total: 0.771500 ms (FindLiveObjects: 0.068000 ms CreateObjectMapping: 0.014250 ms MarkObjects: 0.676250 ms  DeleteObjects: 0.012458 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 217.298589 seconds.
-  path: Assets/Scripts/Spawner.cs
-  artifactKey: Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Spawner.cs using Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66af8f12d5a33365e91a781a41c758b') in 0.003620 seconds
-  Import took 0.004795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036893 seconds.
-  path: Assets/Scripts/Spawner.cs
-  artifactKey: Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Spawner.cs using Guid(ab11d33e6e0d6448fa84476209862146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66af8f12d5a33365e91a781a41c758b') in 0.000634 seconds
-  Import took 0.001581 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000243 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0x7fa109dbd200 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa110718000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa109dcf200 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa110718000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa110860000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa110718000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa110860000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa110718000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa110888000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa109dd5e00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.885 seconds
+- Completed reload, in  0.934 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.5 MB.
-System memory in use after: 77.6 MB.
+System memory in use before: 68.9 MB.
+System memory in use after: 69.0 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1602.
-Total: 0.782958 ms (FindLiveObjects: 0.089666 ms CreateObjectMapping: 0.019000 ms MarkObjects: 0.666375 ms  DeleteObjects: 0.007292 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1595.
+Total: 0.750208 ms (FindLiveObjects: 0.087958 ms CreateObjectMapping: 0.015542 ms MarkObjects: 0.635000 ms  DeleteObjects: 0.011000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000167 seconds.
+Registered in 0.000237 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x7fa12f6b4e00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa1180c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa12f6dce00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa1180c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa1181b8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa1180c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa1181b8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa1180c8000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa1181e0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa12f6e3a00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.033 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.1 MB.
+System memory in use after: 70.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1598.
+Total: 0.877292 ms (FindLiveObjects: 0.085750 ms CreateObjectMapping: 0.013375 ms MarkObjects: 0.764916 ms  DeleteObjects: 0.012333 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 783.986970 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BuildingMaterials/BuildingMaterial1.mat
+  artifactKey: Guid(12696eb0a3b882045a711e6f9bfb637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/BuildingMaterials/BuildingMaterial1.mat using Guid(12696eb0a3b882045a711e6f9bfb637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bf7915fd4f1e9121429fbee79dde5a') in 0.425738 seconds
+  Import took 0.427221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Hot_Dog.fbx
+  artifactKey: Guid(9c706991a6e975a478b6654f44c3ef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Hot_Dog.fbx using Guid(9c706991a6e975a478b6654f44c3ef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455da07dda1f19bf1db7b76fb71641b5') in 0.134836 seconds
+  Import took 0.136021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Light.fbx
+  artifactKey: Guid(d4d98013022b7c644967bf52252d4036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Light.fbx using Guid(d4d98013022b7c644967bf52252d4036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3535c163f75348a0229ea31ce45ee3e3') in 0.014325 seconds
+  Import took 0.015482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Crossroads_1.fbx
+  artifactKey: Guid(a4acbecb68ff14f4bb08109f4f03a053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Crossroads_1.fbx using Guid(a4acbecb68ff14f4bb08109f4f03a053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424a767465e160853505ad464837920a') in 0.009077 seconds
+  Import took 0.010311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_2.fbx
+  artifactKey: Guid(d3addad5f413ded40a105fdf9570f5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_2.fbx using Guid(d3addad5f413ded40a105fdf9570f5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eea401cf2c835375146053070585531') in 0.009608 seconds
+  Import took 0.010700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Traffic_Light_2.fbx
+  artifactKey: Guid(c46eeadb72cb5444bbd18fdfbfe25cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Traffic_Light_2.fbx using Guid(c46eeadb72cb5444bbd18fdfbfe25cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f61ed21ac2f3244180534c32eabe43') in 0.009770 seconds
+  Import took 0.011152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Models/Leashes/Collar2.fbx
+  artifactKey: Guid(fd32b7556e4798845be9664736916bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Models/Leashes/Collar2.fbx using Guid(fd32b7556e4798845be9664736916bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b73e50c869dc27fa20c1d75f1333f00') in 0.045569 seconds
+  Import took 0.046715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Work_Sign_1.fbx
+  artifactKey: Guid(db21c3d9554717548a0cbed9edb0066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Work_Sign_1.fbx using Guid(db21c3d9554717548a0cbed9edb0066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f555235ecdbbf8863f3bcb490fb8ba6') in 0.008308 seconds
+  Import took 0.009407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Fuel_Barrel.fbx
+  artifactKey: Guid(e2dc058780e712b4794f44e8ca1c57a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Fuel_Barrel.fbx using Guid(e2dc058780e712b4794f44e8ca1c57a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b666aed3c87076a2e8c46828879961b') in 0.009259 seconds
+  Import took 0.010433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Crossroads_2.fbx
+  artifactKey: Guid(f4be66b3ded6d0247b9db2222d470123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Crossroads_2.fbx using Guid(f4be66b3ded6d0247b9db2222d470123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09154c7c23d093231a0e27f0933cede8') in 0.009047 seconds
+  Import took 0.010160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_5.fbx
+  artifactKey: Guid(75567697cae173b4abde3ad15827e880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_5.fbx using Guid(75567697cae173b4abde3ad15827e880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd51a275cb7e97452ac1ec903279d1ec') in 0.008929 seconds
+  Import took 0.010086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Fence.fbx
+  artifactKey: Guid(8d9d467983ac6f0458facc9b2b9584e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Fence.fbx using Guid(8d9d467983ac6f0458facc9b2b9584e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ba82ee29bbe9f3e0d7e18bd3abbd6c') in 0.008553 seconds
+  Import took 0.009702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Boxes/Box_3.fbx
+  artifactKey: Guid(60aae83815bcbe44d86391baa345214b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Boxes/Box_3.fbx using Guid(60aae83815bcbe44d86391baa345214b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e94d556d62c43875bf87c54ab4c03ea') in 0.008551 seconds
+  Import took 0.009653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/LeashesCollars/LeashesMaterial3.mat
+  artifactKey: Guid(bc37a7fe672aa0a4eb04ea661604ec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/LeashesCollars/LeashesMaterial3.mat using Guid(bc37a7fe672aa0a4eb04ea661604ec0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bb040c7ad2b71ab72e3c8ccbd45191') in 0.004058 seconds
+  Import took 0.005024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Stopline_1.fbx
+  artifactKey: Guid(87a4b773a08ca94468726828c0df2235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Stopline_1.fbx using Guid(87a4b773a08ca94468726828c0df2235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7c6ed4cbfd93a70eb36c752f8e0d7b') in 0.010428 seconds
+  Import took 0.011485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Roadworks.fbx
+  artifactKey: Guid(6ec79fb4e979e514f920165bf8898824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Roadworks.fbx using Guid(6ec79fb4e979e514f920165bf8898824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4b0a7cc1f168bfd8ff72ed8aea867d') in 0.009151 seconds
+  Import took 0.010463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Crosswalk.fbx
+  artifactKey: Guid(44773616acc265e4889c99564a47f152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Crosswalk.fbx using Guid(44773616acc265e4889c99564a47f152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7225d65a14a265bd73ada9f6ec3fe4') in 0.009916 seconds
+  Import took 0.011036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Models/Leashes/Collar1.fbx
+  artifactKey: Guid(c0127c258e710594595a5939f183c6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Models/Leashes/Collar1.fbx using Guid(c0127c258e710594595a5939f183c6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d78c682eeac0bea1bdd7712d0036734') in 0.038025 seconds
+  Import took 0.039127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Boxes/Box_2.fbx
+  artifactKey: Guid(b380c18198d625c45929f8b881c1597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Boxes/Box_2.fbx using Guid(b380c18198d625c45929f8b881c1597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbbead76c0fa08d327688b3afef9436') in 0.010485 seconds
+  Import took 0.011644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_3.fbx
+  artifactKey: Guid(3450227444b219e4f940fc9880e6a03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_3.fbx using Guid(3450227444b219e4f940fc9880e6a03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd30f9c29ab7d49c439a05852fccc70c') in 0.008293 seconds
+  Import took 0.009368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_2.fbx
+  artifactKey: Guid(c7971cc9ebcf89b47926703329e74972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_2.fbx using Guid(c7971cc9ebcf89b47926703329e74972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0f76e763e9339f710c3d96329db896') in 0.009510 seconds
+  Import took 0.010649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Manhole_1.fbx
+  artifactKey: Guid(2074a5da6d202cb499c858e086cee1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Manhole_1.fbx using Guid(2074a5da6d202cb499c858e086cee1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf25bfe2605ea4ea576f081551606f4d') in 0.009123 seconds
+  Import took 0.010291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Cone.fbx
+  artifactKey: Guid(292a1f2b7663bf44d92c6993be14e891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Cone.fbx using Guid(292a1f2b7663bf44d92c6993be14e891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed5fd254196162f38cee6b964eba2e6') in 0.008347 seconds
+  Import took 0.009404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Trash_Small.fbx
+  artifactKey: Guid(6281254b2d5587144bd7afbad0df1ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Trash_Small.fbx using Guid(6281254b2d5587144bd7afbad0df1ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1af6cd2997e11c3047d3ec4e3efc800') in 0.010209 seconds
+  Import took 0.011299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/LeashesCollars/LeashesMaterial2.mat
+  artifactKey: Guid(efa01907ec367d849a7d150beccdb3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Materials/LeashesCollars/LeashesMaterial2.mat using Guid(efa01907ec367d849a7d150beccdb3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef2bf1ba11c1e7fbe3ea1db2d65513b') in 0.003511 seconds
+  Import took 0.004416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Traffic_Light_1.fbx
+  artifactKey: Guid(3fbfeb7b33bdadd4aa24c0d0c44e6ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Traffic_Light_1.fbx using Guid(3fbfeb7b33bdadd4aa24c0d0c44e6ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4f5c390526db3644c977ea1df157d6') in 0.008530 seconds
+  Import took 0.009610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Railroad_1.fbx
+  artifactKey: Guid(219751978bbd3a24a9e06fd68fb61b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Railroad_1.fbx using Guid(219751978bbd3a24a9e06fd68fb61b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953972c63d970d19561b4fff1b7c4e2b') in 0.008900 seconds
+  Import took 0.010080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Free Low Poly Vehicle/Texture/Materials/Glass.mat
+  artifactKey: Guid(7bb1031bde5f845859cb90d04f3c4aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Texture/Materials/Glass.mat using Guid(7bb1031bde5f845859cb90d04f3c4aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebefacce774c4acd9dc029c8f969b04') in 0.004076 seconds
+  Import took 0.005168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_7.fbx
+  artifactKey: Guid(4ea62ed350342b146b45a09cdb0f0377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_7.fbx using Guid(4ea62ed350342b146b45a09cdb0f0377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db3f44e871f8b60ab9e48b84a80521c') in 0.009203 seconds
+  Import took 0.010332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Boxes/Box_4.fbx
+  artifactKey: Guid(cb70cfd712ee4e04db92e737979fdfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Boxes/Box_4.fbx using Guid(cb70cfd712ee4e04db92e737979fdfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82d3229c3817d0812d8f364eb830885') in 0.009085 seconds
+  Import took 0.010202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Bus Stop.fbx
+  artifactKey: Guid(7568ddcd0cb5ffb49901c47318b0baa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Bus Stop.fbx using Guid(7568ddcd0cb5ffb49901c47318b0baa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ae1e707956707191139f536d64c10e') in 0.008121 seconds
+  Import took 0.009210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Big_Road_Sing_2.fbx
+  artifactKey: Guid(94e2a6d6fc96d7b4eb8b17b77665a0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Big_Road_Sing_2.fbx using Guid(94e2a6d6fc96d7b4eb8b17b77665a0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b63fce6eaf43b4baa5c4af50e71f0b6') in 0.008201 seconds
+  Import took 0.009283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Big_Road_Sing_1.fbx
+  artifactKey: Guid(1664d2693e26e16448dbf3a0c4e82690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Big_Road_Sing_1.fbx using Guid(1664d2693e26e16448dbf3a0c4e82690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df540b1eca24423efbcf6860f8b61ef9') in 0.009651 seconds
+  Import took 0.010775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Crossroads_4.fbx
+  artifactKey: Guid(4d18c4ac600b99e42911d03ef001f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Crossroads_4.fbx using Guid(4d18c4ac600b99e42911d03ef001f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e986265efda6aa1b4bda627ea2082b') in 0.009708 seconds
+  Import took 0.010831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Work_Sign_2.fbx
+  artifactKey: Guid(7a8ba0f506678504f9b5a4baf06c2e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Work_Sign_2.fbx using Guid(7a8ba0f506678504f9b5a4baf06c2e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d7c2fe8bdec0be2e1977d20b045aed') in 0.009034 seconds
+  Import took 0.010177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_1.fbx
+  artifactKey: Guid(5277cf6da4442c24c80000fa4a0a062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_1.fbx using Guid(5277cf6da4442c24c80000fa4a0a062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23085082cec830f4aa4d97e5b10b728') in 0.008790 seconds
+  Import took 0.009848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Stopline_2.fbx
+  artifactKey: Guid(1b6863486c5eadd4a83fe6023de861b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Stopline_2.fbx using Guid(1b6863486c5eadd4a83fe6023de861b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa9bd0a40a1cd449d61c45bd77753c2') in 0.009561 seconds
+  Import took 0.010651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Models/Leashes/Leash2.fbx
+  artifactKey: Guid(a4d7f19e887350747af31d64f81e661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Models/Leashes/Leash2.fbx using Guid(a4d7f19e887350747af31d64f81e661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dd22a5f086ac895f66cf72b807dca0') in 0.027237 seconds
+  Import took 0.028276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Trash_Bag_2.fbx
+  artifactKey: Guid(18542364efaada8449f47850d812c339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Trash_Bag_2.fbx using Guid(18542364efaada8449f47850d812c339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d332038b7346b075a03fda8326e9924') in 0.009019 seconds
+  Import took 0.010109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_1.fbx
+  artifactKey: Guid(a7237e6fd7264984c94ab28373dffffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_1.fbx using Guid(a7237e6fd7264984c94ab28373dffffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc13dfefa3bb2bc5ab9418f17488b51') in 0.008971 seconds
+  Import took 0.010067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Barrier.fbx
+  artifactKey: Guid(b694aec4eb6f34c41bd485b2215d5776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Barrier.fbx using Guid(b694aec4eb6f34c41bd485b2215d5776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efc1dd13eb59dc229a216708718dd1b') in 0.009596 seconds
+  Import took 0.010896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_6.fbx
+  artifactKey: Guid(9230e2a60c4fb5b428ec3ae7aa6b32f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_6.fbx using Guid(9230e2a60c4fb5b428ec3ae7aa6b32f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3c72b4373c8cf37436f126f3b4faf5') in 0.009524 seconds
+  Import took 0.010633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_4.fbx
+  artifactKey: Guid(2b2e1c8f66d065a4c85ec04530b2bed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Road_Signs/Road_Sign_4.fbx using Guid(2b2e1c8f66d065a4c85ec04530b2bed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd417640f0803d641f6def63a63a39a82') in 0.008697 seconds
+  Import took 0.009817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_3.fbx
+  artifactKey: Guid(e992cbc828b581d4c87f0df3fa568109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_3.fbx using Guid(e992cbc828b581d4c87f0df3fa568109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e36c9a88860d2c26af489e72bf1eec') in 0.010887 seconds
+  Import took 0.012016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Boxes/Box_1.fbx
+  artifactKey: Guid(807a52eb6f5745849b2f7c5d32b9afe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Boxes/Box_1.fbx using Guid(807a52eb6f5745849b2f7c5d32b9afe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b580555f4772d015de9bf8655107c171') in 0.009469 seconds
+  Import took 0.010609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Manhole_2.fbx
+  artifactKey: Guid(f1eb66d180252db4fb7892bcef01ac2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Manhole_2.fbx using Guid(f1eb66d180252db4fb7892bcef01ac2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46e19618415c3233700eedc3e1f092b') in 0.009213 seconds
+  Import took 0.010345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Hydrant.fbx
+  artifactKey: Guid(021c3a4f0bfbeed4d829ed40b0420a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Hydrant.fbx using Guid(021c3a4f0bfbeed4d829ed40b0420a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2622ad6bcd44404b5f92ee8c74521dfd') in 0.009621 seconds
+  Import took 0.010687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Tree_2.fbx
+  artifactKey: Guid(609dc84dae4c1e8449391069b8f1762a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Props/Other/Tree_2.fbx using Guid(609dc84dae4c1e8449391069b8f1762a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975d2c8f20dda32648d2f8bddff33e03') in 0.009413 seconds
+  Import took 0.010724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Railroad_2.fbx
+  artifactKey: Guid(47650ac0e4b05c84ea6c409cda3ee856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Railroad_2.fbx using Guid(47650ac0e4b05c84ea6c409cda3ee856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a294b174b979fc77f07822acdd6dc0') in 0.009008 seconds
+  Import took 0.010063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/HealthHeartSystem/Fonts/TinyUnicode.ttf
+  artifactKey: Guid(f385d0af027fa3b4c88d921455a73928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HealthHeartSystem/Fonts/TinyUnicode.ttf using Guid(f385d0af027fa3b4c88d921455a73928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18e77e4dbfbed0155d086ecf98d40e7') in 0.301017 seconds
+  Import took 0.302145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Crossroads_3.fbx
+  artifactKey: Guid(45044476468542b4b802ad0419e6471d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Models/Roads/Road_Crossroads_3.fbx using Guid(45044476468542b4b802ad0419e6471d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2348e6257d515f2ec9a08abde943774') in 0.013573 seconds
+  Import took 0.014720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.557760 seconds.
+  path: Assets/KajamansRoads/Textures/byKajaman.png
+  artifactKey: Guid(46dddbf021c75a846ad5ca6eece444ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/byKajaman.png using Guid(46dddbf021c75a846ad5ca6eece444ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaad67b931aecdae1daee756b2701f3') in 0.372945 seconds
+  Import took 0.374591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/KajamansRoads/Free/Obj/l10km_cc4_sl20_t(12123025)_A87113010_Alley.obj
+  artifactKey: Guid(fd4a0cb4c013bfe4490ba77940a5a695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Obj/l10km_cc4_sl20_t(12123025)_A87113010_Alley.obj using Guid(fd4a0cb4c013bfe4490ba77940a5a695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fad96f81b40bd8110b42116eab77c43') in 0.268893 seconds
+  Import took 0.269973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Resources/Audio/Wavs/Cat/Cat_meow_03.wav
+  artifactKey: Guid(8b0a97395448c8742972323653abb12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Cat/Cat_meow_03.wav using Guid(8b0a97395448c8742972323653abb12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d8cd51f5b5ad0411a36c9e92f43248') in 0.390331 seconds
+  Import took 0.391406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/KajamansRoads/Free/Obj/l10km_cc4_sl20_t(12123025)_rw10_wh3_n3_RsBTW_MeshV00.obj
+  artifactKey: Guid(acb0fe83f7b0b804eb86c1ddc8f4dbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Obj/l10km_cc4_sl20_t(12123025)_rw10_wh3_n3_RsBTW_MeshV00.obj using Guid(acb0fe83f7b0b804eb86c1ddc8f4dbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7d174d9ab22253393563bd4bdf9678') in 0.020854 seconds
+  Import took 0.021919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/KajamansRoads/Free/Meshes/l10km_cc4_sl69_t(1212029)_rw12_wh15_n1_RsBtW_MeshV00.asset
+  artifactKey: Guid(63d26076eb2a23b48b4f5c8d20edc420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Meshes/l10km_cc4_sl69_t(1212029)_rw12_wh15_n1_RsBtW_MeshV00.asset using Guid(63d26076eb2a23b48b4f5c8d20edc420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548936c02401946b231235fd4f1ff9e9') in 0.045700 seconds
+  Import took 0.046830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/RoadSigns/Meshs/Road/LampPost-2.fbx
+  artifactKey: Guid(089327f1142fbda48b28980c6bc942c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadSigns/Meshs/Road/LampPost-2.fbx using Guid(089327f1142fbda48b28980c6bc942c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636d1b5633dc92785afb4a093bab2a9f') in 0.024641 seconds
+  Import took 0.025649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Resources/Audio/Wavs/Cat/Cat_meow_01.wav
+  artifactKey: Guid(3a5ed0e837897ad4b97b69efbb4454cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Cat/Cat_meow_01.wav using Guid(3a5ed0e837897ad4b97b69efbb4454cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13dedeabcaf7d5da72b7607ea07654a') in 0.004330 seconds
+  Import took 0.005277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Resources/Audio/Wavs/Cat/Cat_affirmative_04.wav
+  artifactKey: Guid(3e967d53ba0b2374d920042613712fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Cat/Cat_affirmative_04.wav using Guid(3e967d53ba0b2374d920042613712fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9822bfc43e1b0b56f0fbb03f4043f5c2') in 0.004647 seconds
+  Import took 0.005799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Resources/Audio/Wavs/Cat/Cat_meow_05.wav
+  artifactKey: Guid(1127c67b45df9bf4a825a94b7ea2b113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Cat/Cat_meow_05.wav using Guid(1127c67b45df9bf4a825a94b7ea2b113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd051a39ebd7bf8fb7a4b52990861fa2') in 0.004448 seconds
+  Import took 0.005481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Resources/Audio/Wavs/Cat/Cat_scream_02.wav
+  artifactKey: Guid(5bc0f48a199bdf54eaeaa42d57be9735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Cat/Cat_scream_02.wav using Guid(5bc0f48a199bdf54eaeaa42d57be9735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f5c7c7e6a5e67b969141c467ff6ccd') in 0.004620 seconds
+  Import took 0.005668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/KajamansRoads/Free/Obj/l10km_cc4_sl69_t(1212029)_rw12_wh15_n1_RsBtW_MeshV00.obj
+  artifactKey: Guid(4d1c0c37730856b4a9a945ffefad4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Obj/l10km_cc4_sl69_t(1212029)_rw12_wh15_n1_RsBtW_MeshV00.obj using Guid(4d1c0c37730856b4a9a945ffefad4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba095088e64f871f509e2e44e92aee7') in 0.017925 seconds
+  Import took 0.019123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Main_Hero_Trucks/Main_Truck_4.prefab
+  artifactKey: Guid(5c0b63d1c24324642b9b80fd4f76d939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Main_Hero_Trucks/Main_Truck_4.prefab using Guid(5c0b63d1c24324642b9b80fd4f76d939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0214a742513ade40e3b103524bbc6c') in 0.038522 seconds
+  Import took 0.039605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Main_Hero_Trucks/Main_Truck_2.prefab
+  artifactKey: Guid(3869c69e8dac23a4682c4944ba124748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Main_Hero_Trucks/Main_Truck_2.prefab using Guid(3869c69e8dac23a4682c4944ba124748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ceccca13af8ee3904d9ac9bc0c0f4ee') in 0.001491 seconds
+  Import took 0.002206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/KajamansRoads/Free/Meshes/l10km_cc4_sl20_t(12123025)_A87113010_Alley.asset
+  artifactKey: Guid(0a80fb73f5204284a87dc26ff5f08dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Meshes/l10km_cc4_sl20_t(12123025)_A87113010_Alley.asset using Guid(0a80fb73f5204284a87dc26ff5f08dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29868aea30442bb795af6c35f3a99da8') in 0.004705 seconds
+  Import took 0.005763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/KajamansRoads/Free/Meshes/l20km_cc2_sl30_t(401509)_rw28_wh15_n1_RsBTW_MeshV00.asset
+  artifactKey: Guid(3b1e9a1c3c2d8434e9886f058cfe2987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Meshes/l20km_cc2_sl30_t(401509)_rw28_wh15_n1_RsBTW_MeshV00.asset using Guid(3b1e9a1c3c2d8434e9886f058cfe2987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac17f89127df3959a886217c79e5835') in 0.006781 seconds
+  Import took 0.007790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Main_Hero_Trucks/Main_Truck_3.prefab
+  artifactKey: Guid(ea409d27120635c428dc888c789a3371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Main_Hero_Trucks/Main_Truck_3.prefab using Guid(ea409d27120635c428dc888c789a3371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc2a89b79b4e0f8b9f1a13c3a6a1eb2') in 0.001122 seconds
+  Import took 0.002054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Resources/Audio/Wavs/Cat/Cat_affirmative_03.wav
+  artifactKey: Guid(675abd645255d254e837d3e8711218ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Cat/Cat_affirmative_03.wav using Guid(675abd645255d254e837d3e8711218ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb01ed92bc327d604dbdd80c011cd2f') in 0.005059 seconds
+  Import took 0.006145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/KajamansRoads/Free/Meshes/l10km_cc4_sl20_t(12123025)_rw10_wh3_n3_RsBTW_MeshV00.asset
+  artifactKey: Guid(47e9acb3c671f804da5ffedf7a4d0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Meshes/l10km_cc4_sl20_t(12123025)_rw10_wh3_n3_RsBTW_MeshV00.asset using Guid(47e9acb3c671f804da5ffedf7a4d0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce241cd2bbfbaac9c2804ee71c8c469') in 0.006334 seconds
+  Import took 0.007406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/RoadSigns/Meshs/Road/LampPost-1.fbx
+  artifactKey: Guid(8f6113be03f509149b8625498ca7347e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadSigns/Meshs/Road/LampPost-1.fbx using Guid(8f6113be03f509149b8625498ca7347e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03eed54ad1a11647a516ab0ef94d1c2e') in 0.020058 seconds
+  Import took 0.021122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Main_Hero_Trucks/Main_Truck_1.prefab
+  artifactKey: Guid(475054c3ae438a14c87a575c9fa44ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Main_Hero_Trucks/Main_Truck_1.prefab using Guid(475054c3ae438a14c87a575c9fa44ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f954f7443c2e8561567ad22d8d362db5') in 0.001159 seconds
+  Import took 0.001949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/KajamansRoads/Free/Obj/l20km_cc2_sl30_t(401509)_rw28_wh15_n1_RsBTW_MeshV00.obj
+  artifactKey: Guid(eaa80a420ac74e04cbd3de2123856495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Obj/l20km_cc2_sl30_t(401509)_rw28_wh15_n1_RsBTW_MeshV00.obj using Guid(eaa80a420ac74e04cbd3de2123856495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc96b45b255ba01c4d1d24bde713657') in 0.019491 seconds
+  Import took 0.020594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Resources/Audio/Wavs/Cat/Cat_scream_01.wav
+  artifactKey: Guid(2b254229598c22f45a885d1a7f03eaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Cat/Cat_scream_01.wav using Guid(2b254229598c22f45a885d1a7f03eaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a341a75bdbd4dcaffb11b4ac1439e3') in 0.002884 seconds
+  Import took 0.003646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Resources/Audio/Wavs/Cat/Cat_meow_02.wav
+  artifactKey: Guid(e3f52779dce9b1c40a9a35940affc82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Cat/Cat_meow_02.wav using Guid(e3f52779dce9b1c40a9a35940affc82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afea08ffe05fa80bea58540be9b5659') in 0.003148 seconds
+  Import took 0.004136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Resources/Audio/Wavs/Cat/Cat_scream_03.wav
+  artifactKey: Guid(705286e8abb4cc640b087bf70c92f115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Cat/Cat_scream_03.wav using Guid(705286e8abb4cc640b087bf70c92f115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f91b73b15e020e81901ac16fc2e7caa') in 0.003559 seconds
+  Import took 0.004565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Resources/Audio/Wavs/Cat/Cat_scream_04.wav
+  artifactKey: Guid(c5a539bff62abdf49bacb3c2c00a3975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Cat/Cat_scream_04.wav using Guid(c5a539bff62abdf49bacb3c2c00a3975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9c6b551b657173f210107c9fe22669') in 0.003538 seconds
+  Import took 0.004547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Resources/Audio/Wavs/Cat/damageSound.wav
+  artifactKey: Guid(dd06529142c9ca545877578ae944dd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Cat/damageSound.wav using Guid(dd06529142c9ca545877578ae944dd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c634953adce3fe3d5ee0679ac536ea') in 0.003306 seconds
+  Import took 0.004178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/KajamansRoads/Textures/DemoName01.png
+  artifactKey: Guid(e752658a8b96fdd4dadb427ac9d6a390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/DemoName01.png using Guid(e752658a8b96fdd4dadb427ac9d6a390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1203b9ddf96e781d499f517ade15233') in 0.006674 seconds
+  Import took 0.007808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Textures/LeashesTextures/Leashes_Normal.png
+  artifactKey: Guid(f92866bf64052e342902b275427c9440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bublisher/Small Kit 3D Stylized Petshop Asset/Asset/Textures/LeashesTextures/Leashes_Normal.png using Guid(f92866bf64052e342902b275427c9440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed498056c80a7da165531821cb0f2804') in 0.080289 seconds
+  Import took 0.085155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Resources/Audio/Wavs/Cat/Cat_meow_04.wav
+  artifactKey: Guid(9ebe5706efe9d20409848dcf4994a83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Cat/Cat_meow_04.wav using Guid(9ebe5706efe9d20409848dcf4994a83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3687a8d087fdae9aa0bcda0bda35f9e4') in 0.003879 seconds
+  Import took 0.004715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.687326 seconds.
+  path: Assets/PanoramicCartoonSkybox
+  artifactKey: Guid(c61e03f8ef72f4ff9ae583bed42ce0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PanoramicCartoonSkybox using Guid(c61e03f8ef72f4ff9ae583bed42ce0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0282acb3441706b466a7a8a91bfe48c') in 0.001282 seconds
+  Import took 0.002745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.053720 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Props/Road_Signs/Big_Road_Sing_1.prefab
+  artifactKey: Guid(d302b5f5407e92b43b276b5759006d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Props/Road_Signs/Big_Road_Sing_1.prefab using Guid(d302b5f5407e92b43b276b5759006d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a2c705ca406eab7a5c658a137a1faa') in 0.011803 seconds
+  Import took 0.014241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_big_woof_03.wav
+  artifactKey: Guid(b79219891dc48ba4c974753c93f104b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_big_woof_03.wav using Guid(b79219891dc48ba4c974753c93f104b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0101e940f02cb6c9c356a8b8a6f2030') in 0.005386 seconds
+  Import took 0.006745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Props/Road_Signs/Big_Road_Sing_1.prefab
+  artifactKey: Guid(d302b5f5407e92b43b276b5759006d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Props/Road_Signs/Big_Road_Sing_1.prefab using Guid(d302b5f5407e92b43b276b5759006d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a2c705ca406eab7a5c658a137a1faa') in 0.004983 seconds
+  Import took 0.006350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_grunt_02.wav
+  artifactKey: Guid(18d4352d154251e4cb1613e53f93002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_grunt_02.wav using Guid(18d4352d154251e4cb1613e53f93002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cda1c2332af11df62e087a7a43fb27b') in 0.003924 seconds
+  Import took 0.005081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Resources/Audio/Wavs/Cat/deathSound.wav
+  artifactKey: Guid(283fe087cadda8a49a15ff302016e463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Cat/deathSound.wav using Guid(283fe087cadda8a49a15ff302016e463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c7eddbce3cf26e82888dc98497b0d9') in 0.003965 seconds
+  Import took 0.005205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_grunt_03.wav
+  artifactKey: Guid(ec74d0c8d89649343a60bf345dc7ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_grunt_03.wav using Guid(ec74d0c8d89649343a60bf345dc7ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769a1063045a899e78a71b8f5279bb17') in 0.004923 seconds
+  Import took 0.006477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Free Low Poly Vehicle/Models/Bike_1.fbx
+  artifactKey: Guid(ddac2615459c31e4bbf180555c0aebfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Vehicle/Models/Bike_1.fbx using Guid(ddac2615459c31e4bbf180555c0aebfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000536fd93184dea319fc7807ff92be4') in 0.024797 seconds
+  Import took 0.025953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_grunt_01.wav
+  artifactKey: Guid(8a9a2fc7492848d4aafa912a6c7df569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_grunt_01.wav using Guid(8a9a2fc7492848d4aafa912a6c7df569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b524f7f6fa3b8beac51b12d0219b783f') in 0.003241 seconds
+  Import took 0.004091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_howl_01.wav
+  artifactKey: Guid(2dc301e43de9a5e4cb4784f7edfb6f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_howl_01.wav using Guid(2dc301e43de9a5e4cb4784f7edfb6f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20280273bab7f6213b2a33fcf2b3aa3') in 0.003499 seconds
+  Import took 0.004557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_howl_03.wav
+  artifactKey: Guid(b9fce4f678092b04487ab5fa27e8b08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_howl_03.wav using Guid(b9fce4f678092b04487ab5fa27e8b08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fcdc97c1186e715bb940d51e31c553') in 0.003447 seconds
+  Import took 0.004460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_howl_02.wav
+  artifactKey: Guid(d014e41a0872a834fa5b7c28ca2956b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_howl_02.wav using Guid(d014e41a0872a834fa5b7c28ca2956b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ae395672ae7f93007a2e39713282fe') in 0.003783 seconds
+  Import took 0.004847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_breathing_02.wav
+  artifactKey: Guid(951865ef85780db40b709ca62c83fe6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_breathing_02.wav using Guid(951865ef85780db40b709ca62c83fe6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5dc4506652afce4f6fb08932ad3a18') in 0.003390 seconds
+  Import took 0.004208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_breathing_01.wav
+  artifactKey: Guid(c07baa012eb548f46a980f9d0e4f53c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_breathing_01.wav using Guid(c07baa012eb548f46a980f9d0e4f53c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48c98aae89574d4cd119d760ce61ff8') in 0.002944 seconds
+  Import took 0.003936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_puppy_growl_02.wav
+  artifactKey: Guid(25549b42bd69db6448dc248651b2863f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_puppy_growl_02.wav using Guid(25549b42bd69db6448dc248651b2863f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ace6a274d96babd834ca76423f0cab') in 0.003746 seconds
+  Import took 0.005004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Emergency_Vehicles/Bulldozer.prefab
+  artifactKey: Guid(3c1797b6ce0d2d64eb0a86d2e7046c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Vehicles/Emergency_Vehicles/Bulldozer.prefab using Guid(3c1797b6ce0d2d64eb0a86d2e7046c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91574f7661101b93b9040db868dcfbcf') in 0.001352 seconds
+  Import took 0.002161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_big_woof_05.wav
+  artifactKey: Guid(6f342b9d75c35544cb970b4c751e4d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_big_woof_05.wav using Guid(6f342b9d75c35544cb970b4c751e4d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a184d92bd70a784866c9e20ee06aacc') in 0.003432 seconds
+  Import took 0.004363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/RoadSigns/Meshs/Road/DirectionalSign.fbx
+  artifactKey: Guid(8d9323d98463a74448f8ec121d420067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadSigns/Meshs/Road/DirectionalSign.fbx using Guid(8d9323d98463a74448f8ec121d420067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab6aabd554fa350ede4ef77d6e41a9e') in 0.016610 seconds
+  Import took 0.017697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_big_woof_01.wav
+  artifactKey: Guid(027bf53bcff47e6429354020a3170f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_big_woof_01.wav using Guid(027bf53bcff47e6429354020a3170f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963f50c1799f5483fdd744f78617b8b4') in 0.003421 seconds
+  Import took 0.004396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_puppy_growl_03.wav
+  artifactKey: Guid(5eade3b5048779a4ba73cf01957e2e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_puppy_growl_03.wav using Guid(5eade3b5048779a4ba73cf01957e2e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c138f13c63f27ad7005f3310e735ab') in 0.003715 seconds
+  Import took 0.004691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Props/Road_Signs/Big_Road_Sing_2.prefab
+  artifactKey: Guid(c5ac9d5fb10a555429ca951cc3c8b163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Simple Urban City 3D Asset Pack/Prefabs/Props/Road_Signs/Big_Road_Sing_2.prefab using Guid(c5ac9d5fb10a555429ca951cc3c8b163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d10f46886f9402ecefe36f1b7ef010') in 0.004101 seconds
+  Import took 0.005434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_big_woof_02.wav
+  artifactKey: Guid(6178ebb5c9254af4cb9aedd48f457930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_big_woof_02.wav using Guid(6178ebb5c9254af4cb9aedd48f457930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e14d62cd2f81da1b7ebd46979ca76c') in 0.003448 seconds
+  Import took 0.004260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_puppy_woof_01.wav
+  artifactKey: Guid(ed7e52d3fa814444bbfc1eda6caf8eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_puppy_woof_01.wav using Guid(ed7e52d3fa814444bbfc1eda6caf8eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dae1c529f786905fe6d7280199c5e92') in 0.003275 seconds
+  Import took 0.004610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_big_woof_04.wav
+  artifactKey: Guid(bc735efc545a26b45870931675971f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_big_woof_04.wav using Guid(bc735efc545a26b45870931675971f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5039ef150d08f525d786ae9f8a1feafd') in 0.003239 seconds
+  Import took 0.003978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Resources/Audio/Wavs/Dog/Dog_puppy_growl_01.wav
+  artifactKey: Guid(7b05f4fd2b64d4b42a94dd62fa4823e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/Wavs/Dog/Dog_puppy_growl_01.wav using Guid(7b05f4fd2b64d4b42a94dd62fa4823e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf82c7d89acb51191b36a4f876c0086') in 0.003139 seconds
+  Import took 0.004224 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000269 seconds.
+Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -333,42 +1076,53 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.896 seconds
+- Completed reload, in  0.977 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.6 MB.
-System memory in use after: 78.7 MB.
+System memory in use before: 102.9 MB.
+System memory in use after: 103.0 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1605.
-Total: 0.788625 ms (FindLiveObjects: 0.101959 ms CreateObjectMapping: 0.014375 ms MarkObjects: 0.662417 ms  DeleteObjects: 0.009208 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1658.
+Total: 0.832791 ms (FindLiveObjects: 0.105084 ms CreateObjectMapping: 0.018875 ms MarkObjects: 0.691459 ms  DeleteObjects: 0.016541 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000216 seconds.
+Registered in 0.000187 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x7fa10a009200 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0f0078000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa10a00c600 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0f0078000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0f00c0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0f0078000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0f0128000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0f0078000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa0f00f0000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa10a031e00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.0 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1661.
+Total: 0.734792 ms (FindLiveObjects: 0.096791 ms CreateObjectMapping: 0.012875 ms MarkObjects: 0.617167 ms  DeleteObjects: 0.007250 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.357971 seconds.
+  path: Assets/Level Drop Down.prefab
+  artifactKey: Guid(18feff5bb7c0d4620a0afa342ed6493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Drop Down.prefab using Guid(18feff5bb7c0d4620a0afa342ed6493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1044d6d76389ba3a5d0b305ba376047b') in 0.055015 seconds
+  Import took 0.056173 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000242 seconds.
+Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -376,42 +1130,45 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.046 seconds
+- Completed reload, in  0.987 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.8 MB.
-System memory in use after: 79.9 MB.
+System memory in use before: 105.4 MB.
+System memory in use after: 105.5 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1608.
-Total: 0.805500 ms (FindLiveObjects: 0.075000 ms CreateObjectMapping: 0.015125 ms MarkObjects: 0.705333 ms  DeleteObjects: 0.009500 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1666.
+Total: 0.786375 ms (FindLiveObjects: 0.113541 ms CreateObjectMapping: 0.013542 ms MarkObjects: 0.640542 ms  DeleteObjects: 0.017708 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000197 seconds.
+Registered in 0.000178 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x7fa109063e00 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100108000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa109136400 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100108000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100230000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100108000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100230000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100108000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100258000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa10913c800 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.5 MB.
+System memory in use after: 106.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1669.
+Total: 0.854625 ms (FindLiveObjects: 0.143291 ms CreateObjectMapping: 0.013459 ms MarkObjects: 0.687459 ms  DeleteObjects: 0.009833 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000290 seconds.
+Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -419,57 +1176,83 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
+- Completed reload, in  0.939 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.0 MB.
-System memory in use after: 81.1 MB.
+System memory in use before: 107.7 MB.
+System memory in use after: 107.8 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1611.
-Total: 0.791916 ms (FindLiveObjects: 0.069584 ms CreateObjectMapping: 0.015084 ms MarkObjects: 0.697541 ms  DeleteObjects: 0.009125 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1672.
+Total: 0.784958 ms (FindLiveObjects: 0.111584 ms CreateObjectMapping: 0.014333 ms MarkObjects: 0.650292 ms  DeleteObjects: 0.008125 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000170 seconds.
+Registered in 0.000221 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x7fa12f3fb800 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100100000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa12f3fe400 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100100000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100230000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100100000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100230000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100100000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa100258000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fa12f407000 doesn't match image /Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.891 seconds
+- Completed reload, in  1.040 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.2 MB.
-System memory in use after: 82.3 MB.
+System memory in use before: 108.9 MB.
+System memory in use after: 109.0 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1614.
-Total: 0.746125 ms (FindLiveObjects: 0.084166 ms CreateObjectMapping: 0.014292 ms MarkObjects: 0.637958 ms  DeleteObjects: 0.008667 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1675.
+Total: 0.776750 ms (FindLiveObjects: 0.078792 ms CreateObjectMapping: 0.015000 ms MarkObjects: 0.669042 ms  DeleteObjects: 0.013291 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000234 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.080 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.1 MB.
+System memory in use after: 110.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 0.906792 ms (FindLiveObjects: 0.143042 ms CreateObjectMapping: 0.014333 ms MarkObjects: 0.737875 ms  DeleteObjects: 0.010958 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.3 MB.
+System memory in use after: 111.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 0.881333 ms (FindLiveObjects: 0.104291 ms CreateObjectMapping: 0.018292 ms MarkObjects: 0.744500 ms  DeleteObjects: 0.013666 ms)
 

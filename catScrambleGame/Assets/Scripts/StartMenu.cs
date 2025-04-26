@@ -1,42 +1,71 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 
 public class StartMenu : MonoBehaviour
 {
-    public GameObject mainPanel;         // Drag MainPanel here
-    public GameObject optionsPanel;      // Drag OptionsPanel here
-    public Dropdown musicDropdown;       // Drag MusicDropdown here
+    public GameObject mainPanel;
+    public GameObject optionsPanel;
+    public Dropdown musicDropdown;
+    public Dropdown levelDropdown;      // Drag your LevelDropdown here
     public GameObject scoreUI;
+
+    private List<string> levelNames = new List<string>
+    {
+        "Tutorial",
+        "Level 1",
+        "Level 2",
+        "Level 3",
+        "Endless Mode"
+    };
 
     void Start()
     {
         // Pause the game at the beginning
         Time.timeScale = 0f;
         scoreUI.SetActive(false);
-        // Set panels: main visible, options hidden
+
         mainPanel.SetActive(true);
         optionsPanel.SetActive(false);
 
-        // Populate music dropdown from AudioManager
+        // Set up music dropdown
+        SetupMusicDropdown();
+
+        // Set up level dropdown
+        SetupLevelDropdown();
+    }
+
+    private void SetupMusicDropdown()
+    {
         musicDropdown.ClearOptions();
-        var options = new List<string>();
+        var musicOptions = new List<string>();
 
         foreach (var clip in AudioManager.Instance.musicClips)
         {
-            options.Add(clip.name);
+            musicOptions.Add(clip.name);
         }
 
-        musicDropdown.AddOptions(options);
+        musicDropdown.AddOptions(musicOptions);
 
-        // Load and set previously selected song
         int savedMusicIndex = PlayerPrefs.GetInt("SelectedSong", 0);
         musicDropdown.value = savedMusicIndex;
         musicDropdown.RefreshShownValue();
         AudioManager.Instance.PlayMusic(savedMusicIndex);
 
-        // Add listener
         musicDropdown.onValueChanged.AddListener(OnMusicDropdownChanged);
+    }
+
+    private void SetupLevelDropdown()
+    {
+        levelDropdown.ClearOptions();
+        levelDropdown.AddOptions(levelNames);
+
+        int savedLevelIndex = PlayerPrefs.GetInt("SelectedLevel", 0);
+        levelDropdown.value = savedLevelIndex;
+        levelDropdown.RefreshShownValue();
+
+        levelDropdown.onValueChanged.AddListener(OnLevelDropdownChanged);
     }
 
     public void StartGame()
@@ -44,6 +73,10 @@ public class StartMenu : MonoBehaviour
         Time.timeScale = 1f;
         mainPanel.SetActive(false);
         scoreUI.SetActive(true);
+
+        // Load the selected level
+        string selectedLevelName = levelNames[levelDropdown.value];
+        SceneManager.LoadScene(selectedLevelName);
     }
 
     public void OpenOptions()
@@ -72,5 +105,10 @@ public class StartMenu : MonoBehaviour
     {
         PlayerPrefs.SetInt("SelectedSong", index);
         AudioManager.Instance.PlayMusic(index);
+    }
+
+    private void OnLevelDropdownChanged(int index)
+    {
+        PlayerPrefs.SetInt("SelectedLevel", index);
     }
 }
