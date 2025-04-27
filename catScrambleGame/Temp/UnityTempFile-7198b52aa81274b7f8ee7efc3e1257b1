@@ -1,8 +1,8 @@
 /target:library
-/out:"Temp/Unity.VisualStudio.Editor.dll"
+/out:"Temp/UnityEditor.UI.dll"
 /nowarn:0169
 /nowarn:0649
-/refout:"Temp/Unity.VisualStudio.Editor.dll.ref"
+/refout:"Temp/UnityEditor.UI.dll.ref"
 /deterministic
 /debug:portable
 /optimize+
@@ -10,7 +10,6 @@
 /preferreduilang:en-US
 /langversion:8.0
 /reference:"Library/ScriptAssemblies/UnityEditor.TestRunner.dll"
-/reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
 /reference:"Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
 /reference:"Library/ScriptAssemblies/UnityEngine.UI.dll"
 /reference:"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
@@ -204,7 +203,7 @@
 /reference:"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
 /reference:"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
 /reference:"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
-/reference:"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+/reference:"/Users/ccornell11/Desktop/CatScramble/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 /define:CSHARP_7_3_OR_NEWER
 /define:CSHARP_7_OR_LATER
 /define:DEBUG
@@ -270,6 +269,9 @@
 /define:ENABLE_WWW
 /define:INCLUDE_DYNAMIC_GI
 /define:NET_4_6
+/define:PACKAGE_ANIMATION
+/define:PACKAGE_PHYSICS
+/define:PACKAGE_PHYSICS2D
 /define:PLATFORM_ARCH_64
 /define:PLATFORM_STANDALONE
 /define:PLATFORM_STANDALONE_OSX
@@ -310,38 +312,40 @@
 /define:UNITY_STANDALONE_OSX
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/AssemblyInfo.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Discovery.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/FileUtility.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Image.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Messaging/Deserializer.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Messaging/ExceptionEventArgs.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Messaging/Message.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Messaging/MessageEventArgs.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Messaging/MessageType.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Messaging/Messenger.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Messaging/Serializer.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Messaging/TcpClient.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Messaging/TcpListener.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Messaging/UdpSocket.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/ProjectGeneration/AssemblyNameProvider.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/ProjectGeneration/FileIOProvider.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/ProjectGeneration/GUIDProvider.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/ProjectGeneration/ProjectGeneration.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/ProjectGeneration/ProjectGenerationFlag.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Solution.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/SolutionParser.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/SolutionProjectEntry.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/SolutionProperties.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Symbols.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Testing/TestAdaptor.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Testing/TestResultAdaptor.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Testing/TestRunnerApiListener.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Testing/TestRunnerCallbacks.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/Testing/TestStatusAdaptor.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/UnityInstallation.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/UsageUtility.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/VersionPair.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/VisualStudioEditor.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/VisualStudioInstallation.cs"
-"/Users/marshalltugman/Desktop/Cat Project/GitHub/catScrambleGame/catScrambleGame/Library/PackageCache/com.unity.ide.visualstudio@2.0.7/Editor/VisualStudioIntegration.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/EventSystem/EventSystemEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/EventSystem/EventTriggerEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/EventSystem/Physics2DRaycasterEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/EventSystem/PhysicsRaycasterEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/Properties/AssemblyInfo.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/AspectRatioFitterEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/ButtonEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/CanvasScalerEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/ContentSizeFitterEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/DropdownEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/GraphicEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/GridLayoutGroupEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/HorizontalOrVerticalLayoutGroupEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/ImageEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/InputFieldEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/InterceptedEventsPreview.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/LayoutElementEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/LayoutPropertiesPreview.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/MaskEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/MenuOptions.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/PrefabLayoutRebuilder.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/PropertyDrawers/AnimationTriggersDrawer.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/PropertyDrawers/ColorBlockDrawer.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/PropertyDrawers/DropdownOptionListDrawer.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/PropertyDrawers/FontDataDrawer.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/PropertyDrawers/NavigationDrawer.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/PropertyDrawers/SpriteStateDrawer.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/RawImageEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/RectMask2DEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/ScrollRectEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/ScrollbarEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/SelectableEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/SelfControllerEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/SliderEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/SpriteDrawUtility.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/TextEditor.cs"
+"/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/ToggleEditor.cs"
