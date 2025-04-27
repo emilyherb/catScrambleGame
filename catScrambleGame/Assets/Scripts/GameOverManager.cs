@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;  // Import the SceneManager for loading scenes
 using UnityEngine.UI;
 
 public class GameOverManager : MonoBehaviour
@@ -10,6 +11,9 @@ public class GameOverManager : MonoBehaviour
     public GameObject startMenuCanvas;
     public GameObject mainPanel;
     public GameObject scoreCanvas;
+
+    public string gameSceneName = "GameScene";    // Assign this to the name of your game scene
+    public string mainMenuSceneName = "MainMenu"; // Assign this to the name of your main menu scene
 
     public void ShowEndScreen()
     {
@@ -28,51 +32,52 @@ public class GameOverManager : MonoBehaviour
         }
         highScoreText.text = "High Score: " + highScore;
     }
-public void PlayAgain()
-{
-    Debug.Log("🔁 PlayAgain() called");
 
-    Time.timeScale = 1f;
-    endScreenPanel.SetActive(false);
-    scoreCanvas.SetActive(true);
-    ScoreManager.Instance.ResetScore();
-
-    GameObject player = GameObject.FindWithTag("Player");
-
-    if (player != null)
+    public void PlayAgain()
     {
-        // ✅ Step 1: Reactivate cat FIRST
-        player.SetActive(true);
-        Debug.Log("✅ Reactivated player");
+        Debug.Log("🔁 PlayAgain() called");
 
-        // ✅ Step 2: Then reset health
-        PlayerHealth health = player.GetComponent<PlayerHealth>();
-        if (health != null)
+        Time.timeScale = 1f;  // Resume game time
+        endScreenPanel.SetActive(false);
+        scoreCanvas.SetActive(true);
+        ScoreManager.Instance.ResetScore();
+
+        GameObject player = GameObject.FindWithTag("Player");
+
+        if (player != null)
         {
-            health.ResetHealth();
-            Debug.Log("💖 Reset player health");
+            // Reactivate player first
+            player.SetActive(true);
+            Debug.Log("✅ Reactivated player");
+
+            // Reset health
+            PlayerHealth health = player.GetComponent<PlayerHealth>();
+            if (health != null)
+            {
+                health.ResetHealth();
+                Debug.Log("💖 Reset player health");
+            }
+            else
+            {
+                Debug.LogWarning("No PlayerHealth component found!");
+            }
+
+            // Reset position & velocity
+            player.transform.position = new Vector3(9.4f, -3.54f, -44.8f);
+            Rigidbody rb = player.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.velocity = Vector3.zero;
+            }
         }
         else
         {
-            Debug.LogWarning("No PlayerHealth component found!");
+            Debug.LogError("❌ Could not find player GameObject!");
         }
 
-        // ✅ Step 3: Reset position & velocity
-        player.transform.position = new Vector3(9.4f, -3.54f, -44.8f);
-        Rigidbody rb = player.GetComponent<Rigidbody>();
-        if (rb != null)
-        {
-            rb.velocity = Vector3.zero;
-        }
+        // Reload the gameplay scene (GameScene)
+        SceneManager.LoadScene(gameSceneName);
     }
-    else
-    {
-        Debug.LogError("❌ Could not find player GameObject!");
-    }
-}
-
-
-
 
     public void ReturnToMainMenu()
     {
@@ -82,5 +87,18 @@ public void PlayAgain()
         mainPanel.SetActive(true);
         scoreCanvas.SetActive(false);
         ScoreManager.Instance.ResetScore();
+
+        // Load the Main Menu scene
+        SceneManager.LoadScene(mainMenuSceneName);
+    }
+
+    public void ExitGame()
+    {
+        Debug.Log("Exiting game...");
+        Application.Quit();
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
     }
 }

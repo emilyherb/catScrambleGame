@@ -26,43 +26,48 @@ public class Spawner : MonoBehaviour
     }
 
     void Spawn()
+{
+    float x = spawnXOptions[Random.Range(0, spawnXOptions.Length)];
+    float y = Random.Range(-boxSize.y / 2, boxSize.y / 2);
+    float z = Random.Range(boxSize.z / 2, boxSize.z);
+
+    Vector3 spawnPos = spawnCenter + new Vector3(x, y, z);
+
+    Debug.Log("Spawn Position: " + spawnPos);
+
+    GameObject prefabToSpawn;
+    bool isPowerup = false;
+
+    if (Random.value < powerupSpawnChance && powerupPrefabs.Length > 0)
     {
-        float x = spawnXOptions[Random.Range(0, spawnXOptions.Length)];
-        float y = Random.Range(-boxSize.y / 2, boxSize.y / 2);
-        float z = Random.Range(boxSize.z / 2, boxSize.z);
+        prefabToSpawn = powerupPrefabs[Random.Range(0, powerupPrefabs.Length)];
+        isPowerup = true;
+    }
+    else
+    {
+        prefabToSpawn = obstaclePrefabs[Random.Range(0, obstaclePrefabs.Length)];
+    }
 
-        Vector3 spawnPos = spawnCenter + new Vector3(x, y, z);
+    GameObject obj = Instantiate(prefabToSpawn, spawnPos, Quaternion.identity);
 
-        Debug.Log("Spawn Position: " + spawnPos);
+    // Assign tag
+    obj.tag = isPowerup ? "Powerup" : "Obstacle";
 
-        GameObject prefabToSpawn;
-        bool isPowerup = false;
+    // Scale
+    obj.transform.localScale = Vector3.one * (isPowerup ? 30f : 10f);
 
-        if (Random.value < powerupSpawnChance && powerupPrefabs.Length > 0)
-        {
-            prefabToSpawn = powerupPrefabs[Random.Range(0, powerupPrefabs.Length)];
-            isPowerup = true;
-        }
-        else
-        {
-            prefabToSpawn = obstaclePrefabs[Random.Range(0, obstaclePrefabs.Length)];
-        }
+    // Add Mover component
+    obj.AddComponent<Mover>().Initialize(moveDirection, moveSpeed, despawnZ);
 
-        GameObject obj = Instantiate(prefabToSpawn, spawnPos, Quaternion.identity);
-
-        // Assign tag
-        obj.tag = isPowerup ? "Powerup" : "Obstacle";
-
-        // Scale
-        obj.transform.localScale = Vector3.one * (isPowerup ? 30f : 10f);
-
-        // Add Mover component
-        obj.AddComponent<Mover>().Initialize(moveDirection, moveSpeed, despawnZ);
-
+    // Check if the object already has a BoxCollider
+    if (obj.GetComponent<BoxCollider>() == null)
+    {
         // Add BoxCollider with trigger enabled
         BoxCollider collider = obj.AddComponent<BoxCollider>();
         collider.isTrigger = true;
     }
+}
+
 
     void IncreaseSpawnRate()
     {

@@ -6,28 +6,47 @@ public class AudioManager : MonoBehaviour
     public AudioSource musicSource;
     public AudioClip[] musicClips;
 
-    void Awake()
+   void Awake()
+{
+    if (Instance == null)
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
 
-            // Load all music from Resources/Music
-            musicClips = Resources.LoadAll<AudioClip>("Music");
-        }
-        else
+        if (musicSource == null)
         {
-            Destroy(gameObject);
+            musicSource = gameObject.AddComponent<AudioSource>();
+            musicSource.loop = true;
         }
+
+        musicClips = Resources.LoadAll<AudioClip>("Music");
     }
+    else if (Instance != this)
+    {
+        Destroy(gameObject); // Destroy the duplicate
+    }
+}
+
 
     public void PlayMusic(int index)
     {
+        if (musicSource == null)
+        {
+            Debug.LogError("AudioManager: No AudioSource found!");
+            return;
+        }
+
         if (index >= 0 && index < musicClips.Length)
         {
-            musicSource.clip = musicClips[index];
-            musicSource.Play();
+            if (musicSource.clip != musicClips[index]) // Prevent restarting same song
+            {
+                musicSource.clip = musicClips[index];
+                musicSource.Play();
+            }
+        }
+        else
+        {
+            Debug.LogError("AudioManager: Invalid music index " + index);
         }
     }
 }

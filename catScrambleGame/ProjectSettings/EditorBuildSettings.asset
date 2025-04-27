@@ -6,21 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MainScene.unity
-    guid: 5461462ac70454c7894213608598a840
-  - enabled: 1
-    path: Assets/Endless Mode.unity
-    guid: 53b889eef6caf4411a5d61474bf1a291
-  - enabled: 1
-    path: Assets/Level 1.unity
-    guid: 2bade99aab08542a6a52a61487639e28
-  - enabled: 1
-    path: Assets/Level 2.unity
-    guid: b789170abb2e94f429fd4cb38b9d0632
-  - enabled: 1
-    path: Assets/Level 3.unity
-    guid: 504d282ed440145fea38164b48259a04
-  - enabled: 1
-    path: Assets/Tutorial.unity
-    guid: 47c5dfc00556d4dd89471aa9bcb0feb5
+    path: Assets/Scenes 1/Tutorial.unity
+    guid: ddd872f7ec0b142c59876081d8aee120
   m_configObjects: {}
