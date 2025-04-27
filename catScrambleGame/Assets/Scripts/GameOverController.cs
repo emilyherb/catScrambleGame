@@ -20,13 +20,13 @@ public class GameOverController : MonoBehaviour
     void PlayAgain()
     {
         // Assuming your main gameplay scene is called "GameScene"
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("Tutorial");
     }
 
     void MainMenu()
     {
         // Assuming your main menu scene is called "MainMenu"
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("StartMenu");
     }
 
     void ExitGame()

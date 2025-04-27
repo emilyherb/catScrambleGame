@@ -12,8 +12,9 @@ public class GameOverManager : MonoBehaviour
     public GameObject mainPanel;
     public GameObject scoreCanvas;
 
-    public string gameSceneName = "GameScene";    // Assign this to the name of your game scene
-    public string mainMenuSceneName = "MainMenu"; // Assign this to the name of your main menu scene
+    public string gameOverSceneName = "GameOverScene"; // Name of the GameOver scene
+    public string gameSceneName = "GameScene";    // Name of the game scene
+    public string mainMenuSceneName = "MainMenu"; // Name of the main menu scene
 
     public void ShowEndScreen()
     {
@@ -31,6 +32,19 @@ public class GameOverManager : MonoBehaviour
             highScore = finalScore;
         }
         highScoreText.text = "High Score: " + highScore;
+    }
+
+    // Load the Game Over Scene and then trigger the GameOverController
+    public void LoadGameOverScene()
+    {
+        Debug.Log("🔴 Loading GameOver Scene...");
+
+        // Save the final score before loading
+        int finalScore = ScoreManager.Instance.currentScore;
+        PlayerPrefs.SetInt("FinalScore", finalScore);
+
+        // Load the GameOverScene
+        SceneManager.LoadScene(gameOverSceneName);
     }
 
     public void PlayAgain()
