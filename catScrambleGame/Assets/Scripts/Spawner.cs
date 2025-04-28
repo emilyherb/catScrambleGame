@@ -26,48 +26,55 @@ public class Spawner : MonoBehaviour
     }
 
     void Spawn()
-{
-    float x = spawnXOptions[Random.Range(0, spawnXOptions.Length)];
-    float y = Random.Range(-boxSize.y / 2, boxSize.y / 2);
-    float z = Random.Range(boxSize.z / 2, boxSize.z);
-
-    Vector3 spawnPos = spawnCenter + new Vector3(x, y, z);
-
-    Debug.Log("Spawn Position: " + spawnPos);
-
-    GameObject prefabToSpawn;
-    bool isPowerup = false;
-
-    if (Random.value < powerupSpawnChance && powerupPrefabs.Length > 0)
     {
-        prefabToSpawn = powerupPrefabs[Random.Range(0, powerupPrefabs.Length)];
-        isPowerup = true;
+        float x = spawnXOptions[Random.Range(0, spawnXOptions.Length)];
+        float y = Random.Range(-boxSize.y / 2, boxSize.y / 2);
+        float z = Random.Range(boxSize.z / 2, boxSize.z);
+
+        Vector3 spawnPos = spawnCenter + new Vector3(x, y, z);
+
+        Debug.Log("Spawn Position: " + spawnPos);
+
+        GameObject prefabToSpawn;
+        bool isPowerup = false;
+
+        if (Random.value < powerupSpawnChance && powerupPrefabs.Length > 0)
+        {
+            prefabToSpawn = powerupPrefabs[Random.Range(0, powerupPrefabs.Length)];
+            isPowerup = true;
+        }
+        else
+        {
+            prefabToSpawn = obstaclePrefabs[Random.Range(0, obstaclePrefabs.Length)];
+        }
+
+        GameObject obj = Instantiate(prefabToSpawn, spawnPos, Quaternion.identity);
+
+        // Assign tag
+        obj.tag = isPowerup ? "Powerup" : "Obstacle";
+
+        // Scale
+        obj.transform.localScale = Vector3.one * (isPowerup ? 30f : 10f);
+
+        // Add Mover component
+        obj.AddComponent<Mover>().Initialize(moveDirection, moveSpeed, despawnZ);
+
+        // Check if the object has a BoxCollider (as a safety measure)
+        if (obj.GetComponent<BoxCollider>() == null)
+        {
+            Debug.LogWarning($"Spawned object {obj.name} does not have a BoxCollider! Please add one manually.");
+        }
+        else
+        {
+            // Ensure the BoxCollider is set as a trigger (optional, since you're setting it manually)
+            BoxCollider collider = obj.GetComponent<BoxCollider>();
+            if (!collider.isTrigger)
+            {
+                Debug.LogWarning($"BoxCollider on {obj.name} is not set as a trigger. Setting it now.");
+                collider.isTrigger = true;
+            }
+        }
     }
-    else
-    {
-        prefabToSpawn = obstaclePrefabs[Random.Range(0, obstaclePrefabs.Length)];
-    }
-
-    GameObject obj = Instantiate(prefabToSpawn, spawnPos, Quaternion.identity);
-
-    // Assign tag
-    obj.tag = isPowerup ? "Powerup" : "Obstacle";
-
-    // Scale
-    obj.transform.localScale = Vector3.one * (isPowerup ? 30f : 10f);
-
-    // Add Mover component
-    obj.AddComponent<Mover>().Initialize(moveDirection, moveSpeed, despawnZ);
-
-    // Check if the object already has a BoxCollider
-    if (obj.GetComponent<BoxCollider>() == null)
-    {
-        // Add BoxCollider with trigger enabled
-        BoxCollider collider = obj.AddComponent<BoxCollider>();
-        collider.isTrigger = true;
-    }
-}
-
 
     void IncreaseSpawnRate()
     {

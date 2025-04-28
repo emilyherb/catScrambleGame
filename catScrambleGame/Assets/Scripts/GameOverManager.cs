@@ -1,118 +1,86 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;  // Import the SceneManager for loading scenes
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameOverManager : MonoBehaviour
 {
     public GameObject endScreenPanel;
     public Text finalScoreText;
-    public Text highScoreText;
 
-    public GameObject startMenuCanvas;
-    public GameObject mainPanel;
-    public GameObject scoreCanvas;
-
-    public string gameOverSceneName = "GameOverScene"; // Name of the GameOver scene
-    public string gameSceneName = "GameScene";    // Name of the game scene
-    public string mainMenuSceneName = "MainMenu"; // Name of the main menu scene
+    public string mainMenuSceneName = "StartMenu"; // Name of the StartMenu scene
+    public string gameSceneName = "Tutorial"; // Name of the gameplay scene
 
     public void ShowEndScreen()
     {
-        Time.timeScale = 0f;
-        endScreenPanel.SetActive(true);
-        scoreCanvas.SetActive(false);
+        Time.timeScale = 0f; // Pause the game
+        endScreenPanel.SetActive(true); // Show the end screen panel
 
-        int finalScore = ScoreManager.Instance.currentScore;
-        finalScoreText.text = "Score: " + finalScore;
-
-        int highScore = PlayerPrefs.GetInt("HighScore", 0);
-        if (finalScore > highScore)
+        // Display the final score if ScoreManager is available
+        if (ScoreManager.Instance != null)
         {
-            PlayerPrefs.SetInt("HighScore", finalScore);
-            highScore = finalScore;
+            int finalScore = ScoreManager.Instance.currentScore;
+            if (finalScoreText != null)
+            {
+                finalScoreText.text = "Score: " + finalScore;
+            }
+            else
+            {
+                Debug.LogWarning("finalScoreText is not assigned in GameOverManager!");
+            }
         }
-        highScoreText.text = "High Score: " + highScore;
-    }
-
-    // Load the Game Over Scene and then trigger the GameOverController
-    public void LoadGameOverScene()
-    {
-        Debug.Log("🔴 Loading GameOver Scene...");
-
-        // Save the final score before loading
-        int finalScore = ScoreManager.Instance.currentScore;
-        PlayerPrefs.SetInt("FinalScore", finalScore);
-
-        // Load the GameOverScene
-        SceneManager.LoadScene(gameOverSceneName);
+        else
+        {
+            Debug.LogError("ScoreManager.Instance is null! Cannot display final score.");
+            if (finalScoreText != null)
+            {
+                finalScoreText.text = "Score: N/A";
+            }
+        }
     }
 
     public void PlayAgain()
     {
-        Debug.Log("🔁 PlayAgain() called");
+        Time.timeScale = 1f; // Resume game time
+        endScreenPanel.SetActive(false); // Hide the end screen
+        ScoreManager.Instance?.ResetScore(); // Reset the score
 
-        Time.timeScale = 1f;  // Resume game time
-        endScreenPanel.SetActive(false);
-        scoreCanvas.SetActive(true);
-        ScoreManager.Instance.ResetScore();
-
+        // Reset the player
         GameObject player = GameObject.FindWithTag("Player");
-
         if (player != null)
         {
-            // Reactivate player first
             player.SetActive(true);
-            Debug.Log("✅ Reactivated player");
+            player.transform.position = new Vector3(9.4f, -3.54f, -44.8f); // Reset position
+            Rigidbody rb = player.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.velocity = Vector3.zero; // Reset velocity
+            }
 
             // Reset health
             PlayerHealth health = player.GetComponent<PlayerHealth>();
             if (health != null)
             {
                 health.ResetHealth();
-                Debug.Log("💖 Reset player health");
-            }
-            else
-            {
-                Debug.LogWarning("No PlayerHealth component found!");
-            }
-
-            // Reset position & velocity
-            player.transform.position = new Vector3(9.4f, -3.54f, -44.8f);
-            Rigidbody rb = player.GetComponent<Rigidbody>();
-            if (rb != null)
-            {
-                rb.velocity = Vector3.zero;
             }
         }
-        else
+
+        // Reset GameLoop to start scoring again
+        GameLoop gameLoop = FindObjectOfType<GameLoop>();
+        if (gameLoop != null)
         {
-            Debug.LogError("❌ Could not find player GameObject!");
+            gameLoop.Reset();
         }
 
-        // Reload the gameplay scene (GameScene)
+        // Reload the Tutorial scene
         SceneManager.LoadScene(gameSceneName);
     }
 
     public void ReturnToMainMenu()
     {
-        Time.timeScale = 0f;
-        endScreenPanel.SetActive(false);
-        startMenuCanvas.SetActive(true);
-        mainPanel.SetActive(true);
-        scoreCanvas.SetActive(false);
-        ScoreManager.Instance.ResetScore();
+        Time.timeScale = 0f; // Ensure game is paused
+        endScreenPanel.SetActive(false); // Hide the end screen
+        ScoreManager.Instance?.ResetScore(); // Reset the score
 
-        // Load the Main Menu scene
         SceneManager.LoadScene(mainMenuSceneName);
-    }
-
-    public void ExitGame()
-    {
-        Debug.Log("Exiting game...");
-        Application.Quit();
-
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#endif
     }
 }

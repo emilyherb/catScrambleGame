@@ -10,8 +10,15 @@ public class ScoreManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance == null) Instance = this;
-        else Destroy(gameObject);
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Start()
@@ -30,6 +37,8 @@ public class ScoreManager : MonoBehaviour
     {
         if (liveScoreText != null)
             liveScoreText.text = "Score: " + currentScore;
+        else
+            Debug.LogWarning("liveScoreText is not assigned in ScoreManager!");
     }
 
     public void ResetScore()
