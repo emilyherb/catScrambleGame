@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d168c0162d579834493612b46a8d2640, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44450572, g: 0.49399638, b: 0.5732943, a: 1}
+  m_IndirectSpecularColor: {r: 0.28532317, g: 0.8066526, b: 0.9985618, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: a3033639e44064073bda359d2aaa4d96, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -922,10 +922,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaclePrefabs:
   - {fileID: 2983907603227599703, guid: 5f202a3ee40bc3c46b641001b928c77f, type: 3}
-  - {fileID: 559993727811554497, guid: 3a5df9f18409e7c439c513e6d67a378c, type: 3}
+  - {fileID: 774150586620734464, guid: 31f228c1024f8da4581961e96457b4b4, type: 3}
   - {fileID: 6251666189375065463, guid: d4f40363aa44ea649ac792f348b8c36a, type: 3}
-  - {fileID: 2123668328042113114, guid: 802c0efe3462ff9408f9032b674ae03f, type: 3}
+  - {fileID: 5280000169877883316, guid: d90aae874bef7074eac4ba2f7fa1097d, type: 3}
   - {fileID: 8234531284075936714, guid: 5afe973f63ed70944a553311d43ebd81, type: 3}
+  - {fileID: 5252282590161985829, guid: 99ee31fab8b899c4c87f881a5d4559c6, type: 3}
+  - {fileID: 1985692081323815324, guid: 3647b84acf89a8440a0c508dedb6cc23, type: 3}
+  - {fileID: 362375275981994793, guid: 823693565030bdd46b6179b999b8aeef, type: 3}
+  - {fileID: 5427522932507016689, guid: 88434706d6ff5e243868b378b33cd8b1, type: 3}
   powerupPrefabs:
   - {fileID: 6207564331058911215, guid: f2d59cffb36084783b0c4ddae5434678, type: 3}
   - {fileID: 8845115940847315909, guid: 496fc5b11920e4beaa8f05ea102fe5e7, type: 3}
@@ -941,7 +945,7 @@ MonoBehaviour:
   - -35
   - 35
   - -10
-  spawnRateIncreaseInterval: 40
+  spawnRateIncreaseInterval: 10
   spawnRateMultiplier: 0.9
   minSpawnInterval: 0.2
 --- !u!4 &960178034
@@ -1133,8 +1137,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 2
+  m_Color: {r: 1, g: 0.9185323, b: 0.8392157, a: 1}
+  m_Intensity: 1.25
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
