@@ -8,7 +8,7 @@ public class StartMenu : MonoBehaviour
     public GameObject mainPanel;
     public GameObject optionsPanel;
     public Dropdown musicDropdown;
-    public Dropdown levelDropdown;      // Drag your LevelDropdown here
+    public Dropdown levelDropdown;
     public GameObject scoreUI;
 
     private List<string> levelNames = new List<string>
@@ -22,17 +22,14 @@ public class StartMenu : MonoBehaviour
 
     void Start()
     {
-        // Pause the game at the beginning
         Time.timeScale = 0f;
         scoreUI.SetActive(false);
 
         mainPanel.SetActive(true);
         optionsPanel.SetActive(false);
 
-        // Set up music dropdown
         SetupMusicDropdown();
 
-        // Set up level dropdown
         SetupLevelDropdown();
     }
 
@@ -74,7 +71,6 @@ public class StartMenu : MonoBehaviour
         mainPanel.SetActive(false);
         scoreUI.SetActive(true);
 
-        // Load the selected level
         string selectedLevelName = levelNames[levelDropdown.value];
         SceneManager.LoadScene(selectedLevelName);
     }

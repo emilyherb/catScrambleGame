@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject[] obstaclePrefabs;       // All your obstacles
-    public GameObject[] powerupPrefabs;        // All your powerups (like hearts)
-    public float powerupSpawnChance = 0.15f;   // Chance to spawn powerup
+    public GameObject[] obstaclePrefabs;
+    public GameObject[] powerupPrefabs;
+    public float powerupSpawnChance = 0.15f;
 
     public Vector3 boxSize = new Vector3(10, 1, 20);
     public Vector3 spawnCenter = Vector3.zero;
@@ -15,9 +15,9 @@ public class Spawner : MonoBehaviour
 
     public float[] spawnXOptions = new float[4];
 
-    public float spawnRateIncreaseInterval = 40f; // Every 40 seconds
-    public float spawnRateMultiplier = 0.9f;      // Decrease interval by 10%
-    public float minSpawnInterval = 0.2f;         // Cap at 0.2s interval
+    public float spawnRateIncreaseInterval = 40f;
+    public float spawnRateMultiplier = 0.9f;
+    public float minSpawnInterval = 0.2f;
 
     private void Start()
     {
@@ -50,23 +50,18 @@ public class Spawner : MonoBehaviour
 
         GameObject obj = Instantiate(prefabToSpawn, spawnPos, Quaternion.identity);
 
-        // Assign tag
         obj.tag = isPowerup ? "Powerup" : "Obstacle";
 
-        // Scale
         obj.transform.localScale = Vector3.one * (isPowerup ? 30f : 10f);
 
-        // Add Mover component
         obj.AddComponent<Mover>().Initialize(moveDirection, moveSpeed, despawnZ);
 
-        // Check if the object has a BoxCollider (as a safety measure)
         if (obj.GetComponent<BoxCollider>() == null)
         {
             Debug.LogWarning($"Spawned object {obj.name} does not have a BoxCollider! Please add one manually.");
         }
         else
         {
-            // Ensure the BoxCollider is set as a trigger (optional, since you're setting it manually)
             BoxCollider collider = obj.GetComponent<BoxCollider>();
             if (!collider.isTrigger)
             {
@@ -84,7 +79,6 @@ public class Spawner : MonoBehaviour
         {
             spawnInterval = newInterval;
 
-            // Restart spawn with new interval
             CancelInvoke(nameof(Spawn));
             InvokeRepeating(nameof(Spawn), 0f, spawnInterval);
 

@@ -23,7 +23,7 @@ public class AudioManager : MonoBehaviour
     }
     else if (Instance != this)
     {
-        Destroy(gameObject); // Destroy the duplicate
+        Destroy(gameObject);
     }
 }
 
@@ -38,7 +38,7 @@ public class AudioManager : MonoBehaviour
 
         if (index >= 0 && index < musicClips.Length)
         {
-            if (musicSource.clip != musicClips[index]) // Prevent restarting same song
+            if (musicSource.clip != musicClips[index])
             {
                 musicSource.clip = musicClips[index];
                 musicSource.Play();

@@ -7,15 +7,14 @@ public class GameOverManager : MonoBehaviour
     public GameObject endScreenPanel;
     public Text finalScoreText;
 
-    public string mainMenuSceneName = "StartMenu"; // Name of the StartMenu scene
-    public string gameSceneName = "Tutorial"; // Name of the gameplay scene
+    public string mainMenuSceneName = "StartMenu";
+    public string gameSceneName = "Tutorial";
 
     public void ShowEndScreen()
     {
-        Time.timeScale = 0f; // Pause the game
-        endScreenPanel.SetActive(true); // Show the end screen panel
+        Time.timeScale = 0f;
+        endScreenPanel.SetActive(true);
 
-        // Display the final score if ScoreManager is available
         if (ScoreManager.Instance != null)
         {
             int finalScore = ScoreManager.Instance.currentScore;
@@ -40,23 +39,21 @@ public class GameOverManager : MonoBehaviour
 
     public void PlayAgain()
     {
-        Time.timeScale = 1f; // Resume game time
-        endScreenPanel.SetActive(false); // Hide the end screen
-        ScoreManager.Instance?.ResetScore(); // Reset the score
+        Time.timeScale = 1f;
+        endScreenPanel.SetActive(false);
+        ScoreManager.Instance?.ResetScore();
 
-        // Reset the player
         GameObject player = GameObject.FindWithTag("Player");
         if (player != null)
         {
             player.SetActive(true);
-            player.transform.position = new Vector3(9.4f, -3.54f, -44.8f); // Reset position
+            player.transform.position = new Vector3(9.4f, -3.54f, -44.8f);
             Rigidbody rb = player.GetComponent<Rigidbody>();
             if (rb != null)
             {
-                rb.velocity = Vector3.zero; // Reset velocity
+                rb.velocity = Vector3.zero;
             }
 
-            // Reset health
             PlayerHealth health = player.GetComponent<PlayerHealth>();
             if (health != null)
             {
@@ -64,22 +61,20 @@ public class GameOverManager : MonoBehaviour
             }
         }
 
-        // Reset GameLoop to start scoring again
         GameLoop gameLoop = FindObjectOfType<GameLoop>();
         if (gameLoop != null)
         {
             gameLoop.Reset();
         }
 
-        // Reload the Tutorial scene
         SceneManager.LoadScene(gameSceneName);
     }
 
     public void ReturnToMainMenu()
     {
-        Time.timeScale = 0f; // Ensure game is paused
-        endScreenPanel.SetActive(false); // Hide the end screen
-        ScoreManager.Instance?.ResetScore(); // Reset the score
+        Time.timeScale = 0f;
+        endScreenPanel.SetActive(false);
+        ScoreManager.Instance?.ResetScore();
 
         SceneManager.LoadScene(mainMenuSceneName);
     }

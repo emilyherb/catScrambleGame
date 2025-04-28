@@ -1,17 +1,15 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;  // For scene management
-using UnityEngine.UI;  // For UI elements
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameOverController : MonoBehaviour
 {
-    // Assign buttons in the inspector
     public Button playAgainButton;
     public Button mainMenuButton;
     public Button exitButton;
 
     void Start()
     {
-        // Add listeners to buttons
         playAgainButton.onClick.AddListener(PlayAgain);
         mainMenuButton.onClick.AddListener(MainMenu);
         exitButton.onClick.AddListener(ExitGame);
@@ -19,19 +17,16 @@ public class GameOverController : MonoBehaviour
 
     void PlayAgain()
     {
-        // Assuming your main gameplay scene is called "GameScene"
         SceneManager.LoadScene("Tutorial");
     }
 
     void MainMenu()
     {
-        // Assuming your main menu scene is called "MainMenu"
         SceneManager.LoadScene("StartMenu");
     }
 
     void ExitGame()
     {
-        // Quits the game (works only in a built game)
         Debug.Log("Exiting game...");
         Application.Quit();
 

@@ -13,10 +13,8 @@ public class MenuManager : MonoBehaviour
 
     void Start()
     {
-        // Pause game while in menu
         Time.timeScale = 0f;
 
-        // Setup Music Dropdown
         musicDropdown.ClearOptions();
         var musicOptions = new List<string>();
         foreach (var clip in AudioManager.Instance.musicClips)
@@ -32,7 +30,6 @@ public class MenuManager : MonoBehaviour
 
         musicDropdown.onValueChanged.AddListener(OnMusicChanged);
 
-        // Setup Level Dropdown
         levelDropdown.ClearOptions();
         levelDropdown.AddOptions(levelNames);
     }
@@ -46,7 +43,6 @@ public class MenuManager : MonoBehaviour
 
     public void OnOptionsButton()
     {
-        // Later you can make Options Panel here
         Debug.Log("Options button clicked!");
     }
 

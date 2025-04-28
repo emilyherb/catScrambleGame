@@ -7,33 +7,30 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager Instance;
 
     public int currentScore = 0;
-    public Text liveScoreText; // This will be assigned dynamically
+    public Text liveScoreText;
 
     void Awake()
     {
-        // Make sure only one ScoreManager exists in the scene at a time
         if (Instance == null)
         {
             Instance = this;
         }
         else
         {
-            Destroy(gameObject); // Destroy if another instance already exists
+            Destroy(gameObject);
         }
 
-        // Initialize the score when the scene is loaded
         currentScore = 0;
         UpdateLiveScore();
     }
 
     void Start()
     {
-        // When the scene is loaded, check for the ScoreText and assign it
         liveScoreText = GameObject.Find("ScoreText")?.GetComponent<Text>();
 
         if (liveScoreText != null)
         {
-            UpdateLiveScore(); // Update the score display
+            UpdateLiveScore();
         }
         else
         {
@@ -41,7 +38,6 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
-    // Method to add points to the score
     public void AddPoints(int amount)
     {
         if (currentScore >= 0)
@@ -49,7 +45,6 @@ public class ScoreManager : MonoBehaviour
             currentScore += amount;
             UpdateLiveScore();
 
-            // Check for score thresholds based on the scene name
             string sceneName = SceneManager.GetActiveScene().name;
 
             if (sceneName == "Tutorial" && currentScore >= 20)
@@ -71,7 +66,6 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
-    // Method to update the live score text
     void UpdateLiveScore()
     {
         if (liveScoreText != null)
@@ -84,19 +78,16 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
-    // Method to reset the score
     public void ResetScore()
     {
         currentScore = 0;
         UpdateLiveScore();
     }
 
-    // Return to the main menu based on the current scene
     public void ReturnToMainMenu()
     {
         Debug.Log("Score reached threshold, returning to Start Menu...");
 
-        // Load the StartMenu scene
         SceneManager.LoadScene("StartMenu");
     }
 }

@@ -46,10 +46,6 @@ namespace FastMesh_Example
             {
                 Application.OpenURL("https://assetstore.unity.com/packages/slug/288711");
             }
-    
-            // GUILayout.BeginArea(new Rect(x, y, width, height));
-            // GUILayout.Label(text, style);
-            // GUILayout.EndArea();
             Handles.EndGUI();
         }
     }

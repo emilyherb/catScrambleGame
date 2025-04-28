@@ -11,7 +11,7 @@ public class BuildingSpawner : MonoBehaviour
     public float speed = 5f;
 
     public Transform buildingSpawnOrigin;
-    public float sideOffsetX = 6f; // distance from center to left/right buildings
+    public float sideOffsetX = 6f;
 
     private List<GameObject> leftBuildings = new List<GameObject>();
     private List<GameObject> rightBuildings = new List<GameObject>();

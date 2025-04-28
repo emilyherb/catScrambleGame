@@ -16,6 +16,6 @@ public class WallScroller : MonoBehaviour
     void Update()
     {
         float offset = Time.time * scrollSpeed;
-        rend.material.mainTextureOffset = new Vector2(offset, 0); // Scroll horizontally
+        rend.material.mainTextureOffset = new Vector2(offset, 0);
     }
 }
