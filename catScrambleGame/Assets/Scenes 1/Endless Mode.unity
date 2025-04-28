@@ -930,10 +930,11 @@ MonoBehaviour:
   - {fileID: 1985692081323815324, guid: 3647b84acf89a8440a0c508dedb6cc23, type: 3}
   - {fileID: 362375275981994793, guid: 823693565030bdd46b6179b999b8aeef, type: 3}
   - {fileID: 5427522932507016689, guid: 88434706d6ff5e243868b378b33cd8b1, type: 3}
+  - {fileID: 3565261796498973138, guid: 0748e0aebe4087e418fd7be8c4391d19, type: 3}
   powerupPrefabs:
   - {fileID: 6207564331058911215, guid: f2d59cffb36084783b0c4ddae5434678, type: 3}
   - {fileID: 8845115940847315909, guid: 496fc5b11920e4beaa8f05ea102fe5e7, type: 3}
-  powerupSpawnChance: 0.15
+  powerupSpawnChance: 0.1
   boxSize: {x: 100, y: 1, z: 20}
   spawnCenter: {x: 0, y: -2.74, z: 675.49}
   moveDirection: {x: 0, y: 0, z: -1}
@@ -945,7 +946,7 @@ MonoBehaviour:
   - -35
   - 35
   - -10
-  spawnRateIncreaseInterval: 10
+  spawnRateIncreaseInterval: 5
   spawnRateMultiplier: 0.9
   minSpawnInterval: 0.2
 --- !u!4 &960178034
