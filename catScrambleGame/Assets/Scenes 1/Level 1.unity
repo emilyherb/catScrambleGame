@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44450572, g: 0.49399638, b: 0.5732943, a: 1}
+  m_IndirectSpecularColor: {r: 0.44450623, g: 0.49399704, b: 0.5732952, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -745,10 +745,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaclePrefabs:
   - {fileID: 2983907603227599703, guid: 5f202a3ee40bc3c46b641001b928c77f, type: 3}
-  - {fileID: 559993727811554497, guid: 3a5df9f18409e7c439c513e6d67a378c, type: 3}
-  - {fileID: 6251666189375065463, guid: d4f40363aa44ea649ac792f348b8c36a, type: 3}
-  - {fileID: 2123668328042113114, guid: 802c0efe3462ff9408f9032b674ae03f, type: 3}
-  - {fileID: 8234531284075936714, guid: 5afe973f63ed70944a553311d43ebd81, type: 3}
+  - {fileID: 4594723643141070574, guid: eb9208e05f52d744ab3a64ed4f61a538, type: 3}
+  - {fileID: 4227729958174960173, guid: 630c92722b5c09b409341ceb1beeacda, type: 3}
+  - {fileID: 8156779449694140976, guid: 9f46872401c18b1439e8f9eb9f8bc8df, type: 3}
   powerupPrefabs:
   - {fileID: 6207564331058911215, guid: f2d59cffb36084783b0c4ddae5434678, type: 3}
   - {fileID: 8845115940847315909, guid: 496fc5b11920e4beaa8f05ea102fe5e7, type: 3}
@@ -764,7 +763,7 @@ MonoBehaviour:
   - -35
   - 35
   - -10
-  spawnRateIncreaseInterval: 40
+  spawnRateIncreaseInterval: 15
   spawnRateMultiplier: 0.9
   minSpawnInterval: 0.2
 --- !u!4 &478959672
