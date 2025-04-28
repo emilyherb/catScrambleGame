@@ -85532,3 +85532,39 @@ Start importing Assets/Scenes 1/Tutorial.unity using Guid(ddd872f7ec0b142c598760
   ERROR: Build asset version error: assets/scenes 1/tutorial.unity in SourceAssetDB has modification time of '2025-04-27T22:55:23Z' while content on disk has modification time of '2025-04-28T01:10:55Z'
   Import took 0.001407 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.293754 seconds.
+  path: Assets/Scenes 1/Tutorial.unity
+  artifactKey: Guid(ddd872f7ec0b142c59876081d8aee120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/Tutorial.unity using Guid(ddd872f7ec0b142c59876081d8aee120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000307 seconds
+  ERROR: Build asset version error: assets/scenes 1/tutorial.unity in SourceAssetDB has modification time of '2025-04-27T22:55:23Z' while content on disk has modification time of '2025-04-28T01:10:55Z'
+  Import took 0.000707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.302328 seconds.
+  path: Assets/Scenes 1/Tutorial.unity
+  artifactKey: Guid(ddd872f7ec0b142c59876081d8aee120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/Tutorial.unity using Guid(ddd872f7ec0b142c59876081d8aee120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000507 seconds
+  ERROR: Build asset version error: assets/scenes 1/tutorial.unity in SourceAssetDB has modification time of '2025-04-27T22:55:23Z' while content on disk has modification time of '2025-04-28T01:10:55Z'
+  Import took 0.001193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.301634 seconds.
+  path: Assets/Scenes 1/Tutorial.unity
+  artifactKey: Guid(ddd872f7ec0b142c59876081d8aee120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/Tutorial.unity using Guid(ddd872f7ec0b142c59876081d8aee120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000735 seconds
+  ERROR: Build asset version error: assets/scenes 1/tutorial.unity in SourceAssetDB has modification time of '2025-04-27T22:55:23Z' while content on disk has modification time of '2025-04-28T01:10:55Z'
+  Import took 0.001608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.300862 seconds.
+  path: Assets/Scenes 1/Tutorial.unity
+  artifactKey: Guid(ddd872f7ec0b142c59876081d8aee120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes 1/Tutorial.unity using Guid(ddd872f7ec0b142c59876081d8aee120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000444 seconds
+  ERROR: Build asset version error: assets/scenes 1/tutorial.unity in SourceAssetDB has modification time of '2025-04-27T22:55:23Z' while content on disk has modification time of '2025-04-28T01:10:55Z'
+  Import took 0.001033 seconds .
+
