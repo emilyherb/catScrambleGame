@@ -48,6 +48,26 @@ public class ScoreManager : MonoBehaviour
         {
             currentScore += amount;
             UpdateLiveScore();
+
+            // Check for score thresholds based on the scene name
+            string sceneName = SceneManager.GetActiveScene().name;
+
+            if (sceneName == "Tutorial" && currentScore >= 20)
+            {
+                ReturnToMainMenu();
+            }
+            else if (sceneName == "Level 1" && currentScore >= 30)
+            {
+                ReturnToMainMenu();
+            }
+            else if (sceneName == "Level 2" && currentScore >= 40)
+            {
+                ReturnToMainMenu();
+            }
+            else if (sceneName == "Level 3" && currentScore >= 50)
+            {
+                ReturnToMainMenu();
+            }
         }
     }
 
@@ -71,10 +91,12 @@ public class ScoreManager : MonoBehaviour
         UpdateLiveScore();
     }
 
-    // If needed, return to the main menu
+    // Return to the main menu based on the current scene
     public void ReturnToMainMenu()
     {
-        Debug.Log("Returning to Start Menu...");
+        Debug.Log("Score reached threshold, returning to Start Menu...");
+
+        // Load the StartMenu scene
         SceneManager.LoadScene("StartMenu");
     }
 }
