@@ -47,19 +47,19 @@ public class ScoreManager : MonoBehaviour
 
             string sceneName = SceneManager.GetActiveScene().name;
 
-            if (sceneName == "Tutorial" && currentScore >= 20)
+            if (sceneName == "Tutorial" && currentScore >= 50)
             {
                 ReturnToMainMenu();
             }
-            else if (sceneName == "Level 1" && currentScore >= 30)
+            else if (sceneName == "Level 1" && currentScore >= 100)
             {
                 ReturnToMainMenu();
             }
-            else if (sceneName == "Level 2" && currentScore >= 40)
+            else if (sceneName == "Level 2" && currentScore >= 200)
             {
                 ReturnToMainMenu();
             }
-            else if (sceneName == "Level 3" && currentScore >= 50)
+            else if (sceneName == "Level 3" && currentScore >= 300)
             {
                 ReturnToMainMenu();
             }
